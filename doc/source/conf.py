@@ -3,8 +3,6 @@
 from datetime import datetime
 import os
 
-from sphinx.builders.latex import LaTeXBuilder
-
 from ansys_sphinx_theme import (
     __version__,
     ansys_favicon,
@@ -16,7 +14,7 @@ from ansys_sphinx_theme import (
     latex,
     watermark,
 )
-
+from sphinx.builders.latex import LaTeXBuilder
 
 # Project information
 project = "scade-examples"
@@ -50,6 +48,7 @@ html_theme_options = {
         "json_url": f"https://{cname}/versions.json",
         "version_match": get_version_match(__version__),
     },
+    "check_switcher": False,
 }
 
 # Sphinx extensions

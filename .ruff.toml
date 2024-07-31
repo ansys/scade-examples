@@ -18,7 +18,7 @@ ignore = [
 
 [format]
 quote-style = "double"
-indent-style = "tab"
+indent-style = "space"
 
 [lint.isort]
 combine-as-imports = true

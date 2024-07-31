@@ -7,7 +7,6 @@ repos:
         args: [--fix]
 
       - id: ruff-format
-        args: [--fix]
 
   - repo: https://github.com/ansys/pre-commit-hooks
     rev: v0.3.1
