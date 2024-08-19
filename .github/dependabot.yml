@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directories:
+      - "/requirements"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "build"
+    labels:
+      - "maintenance"
+      - "dependencies"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+       actions:
+          patterns:
+            - "*"
