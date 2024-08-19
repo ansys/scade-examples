@@ -4,17 +4,19 @@ updates:
     directories:
       - "/requirements"
     schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "build"
+      interval: "weekly"
     labels:
       - "maintenance"
       - "dependencies"
+    groups:
+      dependencies:
+          patterns:
+            - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
        actions:
           patterns:
