@@ -6,4 +6,4 @@ the ANSYS SCADE tools.
 
 Documentation
 -------------
-The documentation for this repository is hosted at `examples.scade.docs.pyansys.com <https://examples.scade.docs.pyansys.com/>`
+The documentation for this repository is hosted at `examples.scade.docs.pyansys.com <https://examples.scade.docs.pyansys.com/>`_.
