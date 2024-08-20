@@ -2,9 +2,9 @@
 
 from datetime import datetime
 import os
+import pathlib
 
 from ansys_sphinx_theme import (
-    __version__,
     ansys_favicon,
     ansys_logo_white,
     ansys_logo_white_cropped,
@@ -13,6 +13,14 @@ from ansys_sphinx_theme import (
     watermark,
 )
 from sphinx.builders.latex import LaTeXBuilder
+
+source_dir = pathlib.Path(__file__).parent.resolve().absolute()
+version_file = source_dir / "../../VERSION"
+with pathlib.Path(version_file).open() as file:
+    __version__ = file.read().splitlines()[0]
+release = version = __version__
+
+print(f"Building documentation for scade-examples version {__version__}")
 
 # Project information
 project = "scade-examples"
