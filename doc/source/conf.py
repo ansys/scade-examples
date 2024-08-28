@@ -2,19 +2,25 @@
 
 from datetime import datetime
 import os
+import pathlib
 
 from ansys_sphinx_theme import (
-    __version__,
     ansys_favicon,
-    ansys_logo_black,
     ansys_logo_white,
     ansys_logo_white_cropped,
-    generate_404,
     get_version_match,
     latex,
     watermark,
 )
 from sphinx.builders.latex import LaTeXBuilder
+
+source_dir = pathlib.Path(__file__).parent.resolve().absolute()
+version_file = source_dir / "../../VERSION"
+with pathlib.Path(version_file).open() as file:
+    __version__ = file.read().splitlines()[0]
+release = version = __version__
+
+print(f"Building documentation for scade-examples version {__version__}")
 
 # Project information
 project = "scade-examples"
@@ -36,7 +42,6 @@ html_context = {
     "github_version": "main",
     "doc_path": "doc/source",
 }
-html_logo = ansys_logo_black
 html_theme_options = {
     "github_url": "https://github.com/ansys/scade-examples",
     "contact_mail": "pyansys.core@ansys.com",
@@ -49,6 +54,7 @@ html_theme_options = {
         "version_match": get_version_match(__version__),
     },
     "check_switcher": False,
+    "logo": "ansys",
 }
 
 # Sphinx extensions
@@ -56,7 +62,6 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_copybutton",
     "sphinx_design",
-    "sphinx.ext.todo",
 ]
 
 suppress_warnings = ["config.cache"]
@@ -71,9 +76,3 @@ master_doc = "index"
 LaTeXBuilder.supported_image_types = ["image/png", "image/pdf", "image/svg+xml"]
 latex_additional_files = [watermark, ansys_logo_white, ansys_logo_white_cropped]
 latex_elements = {"preamble": latex.generate_preamble(html_title)}
-
-# Not found page
-notfound_context = {
-    "body": generate_404(),
-}
-notfound_no_urls_prefix = True
