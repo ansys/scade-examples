@@ -2,8 +2,7 @@ SCADE examples
 ##############
 
 This page displays cards for all Ansys SCADE examples. While some of these examples are
-contained in this `repository <https://github.com/ansys/scade-examples>`_, other examples
-are contained in their own dedicated repositories.
+contained in this repository, other examples are contained in their own dedicated repositories.
 
 .. grid:: 3
     :gutter: 3 3 4 4
