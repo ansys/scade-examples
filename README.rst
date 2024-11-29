@@ -1,5 +1,5 @@
-SCADE Examples
-==============
+SCADE Examples Documentation
+============================
 
 |license| |doc|
 
