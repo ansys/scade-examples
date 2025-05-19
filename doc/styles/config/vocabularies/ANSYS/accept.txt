@@ -1,6 +1,2 @@
-ANSYS
-Ansys
-ansys
-SCADE
-Scade
-scade
+(?i)Ansys
+(?i)Scade
