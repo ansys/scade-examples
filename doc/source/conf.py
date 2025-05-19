@@ -74,6 +74,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 linkcheck_ignore = [
+    # Possibly not-yet-deployed model zips
+    "https://github.com/ansys/scade-examples/*",
     # The link below takes a long time to check
     "https://www.ansys.com/products/embedded-software/ansys-scade-suite",
     "https://www.ansys.com/*",
