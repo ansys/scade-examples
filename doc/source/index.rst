@@ -1,7 +1,7 @@
 SCADE example models
 ====================
 
-This repository lists SCADE models that illustrate articles published in our `Ansys Embedded Software Technical Blog`_.
+This repository lists SCADE models that illustrate articles published in the `Ansys Embedded Software Technical Blog`_.
 
 .. _Ansys Embedded Software Technical Blog: https://innovationspace.ansys.com/knowledge/forums/forum/additional-products/embedded-software/
 
