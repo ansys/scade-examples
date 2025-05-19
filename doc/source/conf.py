@@ -62,6 +62,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinx.ext.extlinks",
 ]
 
 suppress_warnings = ["config.cache"]
@@ -76,3 +77,15 @@ master_doc = "index"
 LaTeXBuilder.supported_image_types = ["image/png", "image/pdf", "image/svg+xml"]
 latex_additional_files = [watermark, ansys_logo_white, ansys_logo_white_cropped]
 latex_elements = {"preamble": latex.generate_preamble(html_title)}
+
+# documentation link aliases
+extlinks = {
+    "model_zip": (
+        f"{html_theme_options['github_url']}/releases/latest/download/%s.zip",
+        None,
+    ),
+    "model_sources": (
+        f"{html_theme_options['github_url']}/tree/main/models/%s/",
+        None,
+    ),
+}
