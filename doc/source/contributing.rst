@@ -4,29 +4,28 @@ Contribute
 Overall guidance on contributing to a PyAnsys library appears in
 `Contributing <https://dev.docs.pyansys.com/how-to/contributing.html>`_
 in the *PyAnsys developer's guide*. Ensure that you are thoroughly familiar
-with this guide before attempting to contribute to the Ansys SCADE Tech Blog
-example model repository.
+with this guide before attempting to contribute to the Ansys SCADE example
+models repository.
 
-The following contribution information is specific to Ansys SCADE Tech Blog
-example models.
+The following contribution information is specific to Ansys SCADE example models.
 
 Install in developer mode
 -------------------------
 
-Installing the Ansys SCADE Tech Blog Examples in developer mode allows you to modify the
+Installing the Ansys SCADE examples in developer mode allows you to modify the
 source and enhance it.
 
-#. Clone the ``ansys-scade-examples-tech-blog`` repository:
+#. Clone the ``ansys-scade-examples`` repository:
 
    .. code:: bash
 
-      git clone https://github.com/ansys/scade-examples-tech-blog.git
+      git clone https://github.com/ansys/scade-examples.git
 
-#. Access the ``scade-examples-tech-blog`` directory where the repository has been cloned:
+#. Access the ``scade-examples`` directory where the repository has been cloned:
 
    .. code:: bash
 
-      cd scade-examples-tech-blog
+      cd scade-examples
 
 #. Create a clean Python 3.10 environment and activate it:
 
@@ -127,7 +126,7 @@ To add a new model, make a Pull Request with the following changes:
 
       .. grid-item-card:: {MODEL_OR_COMPANION_ARTICLE_NAME}
           :margin: 2
-          :img-top: _static/{MODEL_FOLDER_NAME}-thumb.jpg
+          :img-top: _static/thumbnails/{MODEL_FOLDER_NAME}.jpg
 
           :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <{MODEL_FOLDER_NAME}>`
 
@@ -137,16 +136,15 @@ To add a new model, make a Pull Request with the following changes:
 
 Post issues
 -----------
-Use the `Issues <https://github.com/ansys/scade-examples-tech-blog/issues>`_
+Use the `Issues <https://github.com/ansys/scade-examples/issues>`_
 page for this repository to report bugs and request new features. When possible,
 use the issue templates provided. If your issue does not fit into one of these templates,
 click the link for opening a blank issue.
 
 If you have general questions about the PyAnsys ecosystem, email
 `pyansys.core@ansys.com <pyansys.core@ansys.com>`_. If your
-question is specific to Ansys SCADE Tech Blog Examples,
-ask your question in an issue as described
-in the previous paragraph.
+question is specific to Ansys SCADE examples, ask your question
+in an issue as described in the previous paragraph.
 
 .. LINKS AND REFERENCES
 

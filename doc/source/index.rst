@@ -1,9 +1,9 @@
 SCADE example models
 ====================
 
-This repository lists SCADE models that illustrate articles published in the `Ansys Embedded Software Technical Blog`_.
+This repository hosts a collection of example models demonstrating the Ansys SCADE tools.
 
-.. _Ansys Embedded Software Technical Blog: https://innovationspace.ansys.com/knowledge/forums/forum/additional-products/embedded-software/
+These models are often related to external content, for instance `Embedded Software Technical Blog <https://innovationspace.ansys.com/knowledge/forums/forum/additional-products/embedded-software/>`__ articles, or `Embedded Software Courses <https://courses.ansys.com/index.php/embedded-software/>`__.
 
 .. toctree::
    :maxdepth: 2
@@ -24,7 +24,7 @@ This repository lists SCADE models that illustrate articles published in the `An
       :link: contributing
       :link-type: doc
 
-      Learn how to contribute to SCADE Tech Blog article models.
+      Learn how to contribute to SCADE example models.
 
 
 * :ref:`search`
