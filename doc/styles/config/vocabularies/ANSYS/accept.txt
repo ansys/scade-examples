@@ -1,2 +1,2 @@
+(?i)Ansys
 (?i)Scade
-Ansys

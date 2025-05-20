@@ -62,6 +62,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinx.ext.extlinks",
 ]
 
 suppress_warnings = ["config.cache"]
@@ -72,7 +73,35 @@ source_suffix = ".rst"
 # The master toctree document.
 master_doc = "index"
 
+linkcheck_ignore = [
+    # Possibly not-yet-deployed model zips
+    "https://github.com/ansys/scade-examples/*",
+    # The link below takes a long time to check
+    "https://www.ansys.com/products/embedded-software/ansys-scade-suite",
+    "https://www.ansys.com/*",
+    # AIS Knowledge links are external and should not be checked
+    "https://innovationspace.ansys.com/knowledge/wp-content/*",
+    "https://courses.ansys.com/index.php/embedded-software/*",
+]
+
+# suppress FontAwesome warnings
+suppress_warnings = [
+    "design.fa-build",
+]
+
 # additional logos for the latex coverpage
 LaTeXBuilder.supported_image_types = ["image/png", "image/pdf", "image/svg+xml"]
 latex_additional_files = [watermark, ansys_logo_white, ansys_logo_white_cropped]
 latex_elements = {"preamble": latex.generate_preamble(html_title)}
+
+# documentation link aliases
+extlinks = {
+    "model_zip": (
+        f"{html_theme_options['github_url']}/releases/latest/download/%s.zip",
+        None,
+    ),
+    "model_sources": (
+        f"{html_theme_options['github_url']}/tree/main/models/%s/",
+        None,
+    ),
+}
