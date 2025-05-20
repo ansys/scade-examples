@@ -13,8 +13,8 @@ SCADE Examples
 .. |version| image:: https://img.shields.io/badge/version-2024R2-blue
    :alt: version
 
-.. |CI-CD| image:: https://github.com/ansys/scade-examples-tech-blog/actions/workflows/ci_cd.yml/badge.svg
-   :target: https://github.com/ansys/scade-examples-tech-blog/actions/workflows/ci_cd.yml
+.. |CI-CD| image:: https://github.com/ansys/scade-examples/actions/workflows/ci_cd.yml/badge.svg
+   :target: https://github.com/ansys/scade-examples/actions/workflows/ci_cd.yml
    :alt: CI-CD
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
@@ -31,7 +31,7 @@ This repository hosts a collection of example models demonstrating the Ansys SCA
 
 These models are often related to external content, for instance `Embedded Software Technical Blog <https://innovationspace.ansys.com/knowledge/forums/forum/additional-products/embedded-software/>`__ articles, or `Embedded Software Courses <https://courses.ansys.com/index.php/embedded-software/>`__.
 
-In addition to example models stored in this repository, the documentation also points to separate repositories hosting larger, 'flagship' SCADE demo models. These 'flagship' models are larger in scale and have theirown advanced CI/CD actions.
+In addition to example models stored in this repository, the documentation also points to separate repositories hosting larger, 'flagship' SCADE demo models. These 'flagship' models are larger in scale and have their own advanced CI/CD actions.
 
 Documentation
 -------------
