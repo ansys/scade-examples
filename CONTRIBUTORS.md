@@ -2,10 +2,10 @@
 
 ## Project Lead
 
-* [Jorge Martínez](https://github.com/jorgepiloto)
+* [François Couadau (Ansys)](https://github.com/ansfcouadau)
 
 ## Individual Contributors
 
-* [François Couadau (Ansys)](https://github.com/ansfcouadau)
+* [Jorge Martínez](https://github.com/jorgepiloto)
 * [Kathy Pippert](https://github.com/PipKat)
 * [Revathy Venugopal](https://github.com/Revathyvenugopal162)
