@@ -1,4 +1,22 @@
-# Byte-compiled / optimized / DLL files
+# Files ignored for configuration management with SCADE
+*.log
+*.exe
+*.dll
+*.htm
+*.ewo
+*.mccache
+*.mcorder
+*.skc
+*.err
+*.trf
+*.toremove
+*.bak
+# generation output directories
+models/**/Standalone/
+models/**/GCS_Exe/
+models/**/kcgdisplay/
+
+### Python #### Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class

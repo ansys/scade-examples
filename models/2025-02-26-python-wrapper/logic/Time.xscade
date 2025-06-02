@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Package name="Time">
+			<declarations>
+				<Operator kind="node" name="CounterNoReset">
+					<inputs>
+						<Variable name="incr">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/3bf/1A5D/22944/67bf29d067db" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+									<comment>Increment of the counter</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="count">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/3be/1A5D/22944/67bf29d05253" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+									<comment>Value of the counter</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<NumericType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</NumericType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/3bb/1A5D/22944/67bf29d06c93"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/3bc/1A5D/22944/67bf29d044e3"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/3bd/1A5D/22944/67bf29d066ba"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = incr; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="incr"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/3b4/1A5D/22944/67bf29d0a2d"/>
+							</pragmas>
+						</Equation>
+						<!-- count = _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="count"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L5"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/3b5/1A5D/22944/67bf29d03ec2"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = _L1 + _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- _L1 + _L5 -->
+								<NAryOp name="1" operator="+">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/3b6/1A5D/22944/67bf29d020a"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = fby(_L4; 1; (0 : 'T)); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- fby(_L4; 1; (0 : 'T)) -->
+								<FbyOp name="1">
+									<flows>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+									</flows>
+									<delay>
+										<ConstValue value="1"/>
+									</delay>
+									<values>
+										<!-- (0 : 'T) -->
+										<NumericCastOp name="1">
+											<type>
+												<TypeRef name="'T"/>
+											</type>
+											<flow>
+												<ConstValue value="0"/>
+											</flow>
+										</NumericCastOp>
+									</values>
+								</FbyOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/3b7/1A5D/22944/67bf29d022cc"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/3b3/1A5D/22944/67bf29d04a8c" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+							<comment>The counter starts from 0 and is incremented at each cycle by incr.</comment>
+							<diagrams>
+								<NetDiagram name="CounterNoReset" landscape="true" format="A4 (210 297)" oid="!ed/3b8/1A5D/22944/67bf29d017a9">
+									<presentationElements>
+										<EquationGE presentable="!ed/3b4/1A5D/22944/67bf29d0a2d">
+											<position>
+												<Point x="1296" y="741"/>
+											</position>
+											<size>
+												<Size width="264" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/3b5/1A5D/22944/67bf29d03ec2">
+											<position>
+												<Point x="9446" y="847"/>
+											</position>
+											<size>
+												<Size width="317" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/3b6/1A5D/22944/67bf29d020a">
+											<position>
+												<Point x="2884" y="794"/>
+											</position>
+											<size>
+												<Size width="1005" height="635"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/3b7/1A5D/22944/67bf29d022cc">
+											<position>
+												<Point x="5530" y="609"/>
+											</position>
+											<size>
+												<Size width="1286" height="995"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/3b7/1A5D/22944/67bf29d022cc" dstEquation="!ed/3b5/1A5D/22944/67bf29d03ec2">
+											<positions>
+												<Point x="6826" y="1111"/>
+												<Point x="8149" y="1111"/>
+												<Point x="8149" y="1111"/>
+												<Point x="9499" y="1111"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/3b6/1A5D/22944/67bf29d020a" dstEquation="!ed/3b7/1A5D/22944/67bf29d022cc">
+											<positions>
+												<Point x="3889" y="1111"/>
+												<Point x="4710" y="1111"/>
+												<Point x="4710" y="1111"/>
+												<Point x="5530" y="1111"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/3b7/1A5D/22944/67bf29d022cc" dstEquation="!ed/3b6/1A5D/22944/67bf29d020a">
+											<positions>
+												<Point x="6826" y="1111"/>
+												<Point x="8149" y="1111"/>
+												<Point x="8149" y="2249"/>
+												<Point x="1561" y="2249"/>
+												<Point x="1561" y="1217"/>
+												<Point x="2884" y="1217"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/3b4/1A5D/22944/67bf29d0a2d" dstEquation="!ed/3b6/1A5D/22944/67bf29d020a">
+											<positions>
+												<Point x="1561" y="1005"/>
+												<Point x="2196" y="1005"/>
+												<Point x="2196" y="1005"/>
+												<Point x="2884" y="1005"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+									<equationSets>
+										<EquationSet name="Count" styleName="EQS1" oid="!ed/3b9/1A5D/22944/67bf29d02ed2">
+											<presentable>!ed/3b4/1A5D/22944/67bf29d0a2d</presentable>
+											<presentable>!ed/3b6/1A5D/22944/67bf29d020a</presentable>
+											<presentable>!ed/3b7/1A5D/22944/67bf29d022cc</presentable>
+											<presentable>!ed/3b5/1A5D/22944/67bf29d03ec2</presentable>
+										</EquationSet>
+										<EquationSet name="Reset" styleName="EQS2" oid="!ed/3ba/1A5D/22944/67bf29d05685"/>
+									</equationSets>
+								</NetDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+			</declarations>
+			<pragmas>
+				<ed:Package oid="!ed/385/1A5D/22944/67bf29c159d" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+					<diagrams>
+						<TreeDiagram landscape="false" format="A4 (210 297)" oid="!ed/386/1A5D/22944/67bf29c134c3" blockKind="constants"/>
+						<TreeDiagram landscape="false" format="A4 (210 297)" oid="!ed/387/1A5D/22944/67bf29c16dc0" blockKind="types"/>
+						<TreeDiagram landscape="false" format="A4 (210 297)" oid="!ed/388/1A5D/22944/67bf29c1226b" blockKind="sensors"/>
+					</diagrams>
+				</ed:Package>
+			</pragmas>
+		</Package>
+	</declarations>
+</File>

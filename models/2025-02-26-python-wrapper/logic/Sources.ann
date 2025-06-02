@@ -1,0 +1,36 @@
+Notes-Types { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    DesignElement ::= SEQUENCE OF { SEQUENCE {
+    annot_object OID,
+    name STRING,
+        information {
+            Category ENUM
+            {
+            	 NT_ENUM_VALUES {"Low Level Requirement", "Architecture", "Derived Low Level Requirement"},
+            	 NT_DEFAULT_VALUE "Low Level Requirement" ,
+            	 NT_FIELD_WIDTH 20 ,
+            	 LLR_PROP "Category" },
+            Description TEXT
+            {
+            	 NT_FIELD_HEIGHT 20 ,
+            	 NT_FIELD_WIDTH 60 }
+    } } }
+
+END
+
+Notes-Values { Esterel-Technologies }  DEFINITIONS ::=
+BEGIN
+    DesignElement ::= {
+        {"!ed/178/1A5D/22944/67bf2925450e", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/20f/1A5D/22944/67bf294c706b", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/210/1A5D/22944/67bf294c4e1f", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/2d6/1A5D/22944/67bf2965109b", "DesignElement","Low Level Requirement" , "" },
+        {"!ed/318/1A5D/22944/67bf29654604", "DesignElement","Low Level Requirement" , "" },
+        {"!ed/31a/1A5D/22944/67bf29656c1", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/31b/1A5D/22944/67bf29656c63", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/31c/1A5D/22944/67bf296545c9", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/31d/1A5D/22944/67bf29654d62", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/372/1A5D/22944/67bf29801f31", "DesignElement_1","Low Level Requirement" , "" },
+        {"!ed/344/1A5D/22944/67bf29803fc5", "DesignElement_1","Low Level Requirement" , "" }}
+END
+
