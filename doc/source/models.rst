@@ -7,11 +7,15 @@ SCADE models
 Below is a list of cards pointing to large Ansys SCADE examples stored in their own, dedicated repositories. They are typically large in scope, composed of multiple, interconnected models, and have their own CI/CD actions.
 
 .. grid:: 2 2 3 3
-    :gutter: 0 4 0 0
 
     .. grid-item-card:: Smart boiler control
       :img-top: _static/thumbnails/smart-boiler-control.png
       :link: https://smart-boiler-control.examples.scade.docs.pyansys.com
+      :text-align: center
+
+    .. grid-item-card:: Multi-touch cockpit
+      :img-top: _static/thumbnails/multi-touch-cockpit.png
+      :link: https://multi-touch-cockpit.examples.scade.docs.pyansys.com/
       :text-align: center
 
 Example models
