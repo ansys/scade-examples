@@ -1,0 +1,7 @@
+# GitHub Linguist overrides for SCADE-specific files
+*.di  linguist-vendored # Architect project info, may be confused with Dlang
+*.mcr linguist-vendored # Model Coverage results, may be confused with MaxScript
+*.psc linguist-vendored # Task pragmas,           may be confused with Papyrus
+*.sld linguist-vendored # A661 look definitions,  may be confused with Scheme
+*.sss linguist-vendored # Test scenarios,         may be confused with SugarSS
+*.tst linguist-vendored # Test records,           may be confused with GAP, Scilab
