@@ -25,6 +25,16 @@ Below is a list of Ansys SCADE models stored in this repository. They are typica
 
 .. grid:: 2 2 3 3
 
+    .. grid-item-card:: Runtime Error Proof with SCADE Suite Design Verifier 
+        :margin: 0 4 0 0
+        :img-top: _static/thumbnails/2025-07-16-dv-rte.jpg
+
+        :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2025-07-16-dv-rte>`
+
+        :fas:`fa-solid fa-code` :model_sources:`View sources <2025-07-16-dv-rte>`
+
+        :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/proving-the-absence-of-runtime-errors-in-high-integrity-software-design-using-scade-suite-design-verifier/>`__
+
     .. grid-item-card:: Rendering a Live Video Stream in SCADE Display Using OpenCV
         :margin: 0 4 0 0
         :img-top: _static/thumbnails/2025-05-06-live-video.jpg
