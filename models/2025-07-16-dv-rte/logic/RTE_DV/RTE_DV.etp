@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="40" defaultConfiguration="2">
+	<props>
+		<Prop id="3" name="@STUDIO:PRODUCT">
+			<value>SC</value>
+		</Prop>
+		<Prop id="11" name="@STUDIO:TITLE">
+			<value>&lt;title&gt;</value>
+		</Prop>
+		<Prop id="12" name="@STUDIO:SUBTITLE">
+			<value>&lt;subtitle&gt;</value>
+		</Prop>
+		<Prop id="13" name="@STUDIO:DESCRIPTION">
+			<value>&lt;description&gt;</value>
+		</Prop>
+		<Prop id="14" name="@STUDIO:AUTHORS">
+			<value>&lt;authors&gt;</value>
+		</Prop>
+		<Prop id="15" name="@STUDIO:COMPAGNY">
+			<value>&lt;company&gt;</value>
+		</Prop>
+		<Prop id="16" name="@STUDIO:DATE">
+			<value>&lt;date&gt;</value>
+		</Prop>
+		<Prop id="17" name="@STUDIO:INDEX">
+			<value>&lt;index&gt;</value>
+		</Prop>
+		<Prop id="18" name="@STUDIO:REFERENCE">
+			<value>&lt;reference&gt;</value>
+		</Prop>
+		<Prop id="19" name="@SCADE:SAVEVERSION">
+			<value>SCADE65</value>
+		</Prop>
+		<Prop id="20" name="@SCADE:NEWVARIABLESYMBOLS">
+			<value>true</value>
+		</Prop>
+		<Prop id="21" name="@STUDIO:TOOLCONF">
+			<value>Metrics and Rules Checker</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="22" name="@STUDIO:TOOLCONF">
+			<value>Design Verifier</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="23" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Analysis Tools</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="24" name="@STUDIO:TOOLCONF">
+			<value>DiffAnalyzer</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="25" name="@STUDIO:TOOLCONF">
+			<value>Reporter</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="26" name="@STUDIO:TOOLCONF">
+			<value>Code Generator</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="27" name="@STUDIO:TOOLCONF">
+			<value>Synchronization</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="28" name="@STUDIO:TOOLCONF">
+			<value>Import/Export</value>
+			<value>2</value>
+		</Prop>
+		<Prop id="31" name="@GENERATOR:GENERATOR">
+			<value>C QUAL663</value>
+			<configuration>2</configuration>
+		</Prop>
+		<Prop id="34" name="@GENERATOR:OBSERVE_MODE">
+			<value>4</value>
+			<configuration>2</configuration>
+		</Prop>
+		<Prop id="35" name="@SIMULATOR:CPU_TYPE">
+			<value>win64</value>
+			<configuration>2</configuration>
+		</Prop>
+		<Prop id="36" name="@GENERATOR:DEBUG">
+			<value>true</value>
+			<configuration>2</configuration>
+		</Prop>
+		<Prop id="37" name="@GENERATOR:SKIP_UNUSED">
+			<value>true</value>
+			<configuration>2</configuration>
+		</Prop>
+		<Prop id="40" name="@GENERATOR:ROOTNODE">
+			<value>Proof_Harness</value>
+			<configuration>2</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="4" extensions="scade;xscade" name="Model Files">
+			<elements>
+				<FileRef id="39" persistAs="Proof_Harness1.xscade"/>
+			</elements>
+		</Folder>
+		<Folder id="5" name="User Libraries">
+			<elements>
+				<FileRef id="6" persistAs="..\RTE\RTE.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="7" extensions="vsp;etp" name="Scade Libraries">
+			<elements>
+				<FileRef id="8" persistAs="$(SCADE)/libraries/SC65/libverif/libverif.etp"/>
+			</elements>
+		</Folder>
+		<Folder id="9" name="Design Verifier File">
+			<elements>
+				<FileRef id="10" persistAs="RTE_DV.l4"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="2" name="Default"/>
+	</configurations>
+</Project>
