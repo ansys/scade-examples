@@ -86,10 +86,6 @@
 			<value>true</value>
 			<configuration>2</configuration>
 		</Prop>
-		<Prop id="38" name="@GENERATOR:TARGET_ADAPTOR">
-			<value></value>
-			<configuration>2</configuration>
-		</Prop>
 		<Prop id="40" name="@GENERATOR:ROOTNODE">
 			<value>Proof_Harness</value>
 			<configuration>2</configuration>
