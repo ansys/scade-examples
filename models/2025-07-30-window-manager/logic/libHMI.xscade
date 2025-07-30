@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Constant name="ZONE_CONTENT_INIT">
+			<type>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<ConstValue value="4"/>
+					</size>
+				</Table>
+			</type>
+			<value>
+				<!-- [0, 1, 2, 3] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="0"/>
+						<ConstValue value="1"/>
+						<ConstValue value="2"/>
+						<ConstValue value="3"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/14c/4A94/549C/680f2a9c7bfc"/>
+			</pragmas>
+		</Constant>
+		<Type name="Type1">
+			<definition>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<ConstValue value="4"/>
+					</size>
+				</Table>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/528/2711/2098/680f4fb546c3"/>
+			</pragmas>
+		</Type>
+		<Constant name="MAX_ZONES">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="int32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="4"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/321/42B0/5D80/6870aa1e2a29"/>
+			</pragmas>
+		</Constant>
+	</declarations>
+</File>
