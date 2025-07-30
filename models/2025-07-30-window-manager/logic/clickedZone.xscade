@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Operator kind="node" name="ClickedZone">
+			<inputs>
+				<Variable name="z1">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/21/4A94/549C/680f26a72cf7"/>
+					</pragmas>
+				</Variable>
+				<Variable name="z2">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/2f/4A94/549C/680f26b011ca"/>
+					</pragmas>
+				</Variable>
+				<Variable name="z3">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/35/4A94/549C/680f26b032f4"/>
+					</pragmas>
+				</Variable>
+				<Variable name="z4">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/3b/4A94/549C/680f26b14892"/>
+					</pragmas>
+				</Variable>
+				<Variable name="mousePressed">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/3d/4A94/549C/680f28bb4297"/>
+					</pragmas>
+				</Variable>
+			</inputs>
+			<outputs>
+				<Variable name="zoneId">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<default>
+						<ConstValue value="-1"/>
+					</default>
+					<last>
+						<ConstValue value="-1"/>
+					</last>
+					<pragmas>
+						<ed:Variable oid="!ed/3c/4A94/549C/680f26b26463"/>
+					</pragmas>
+				</Variable>
+			</outputs>
+			<data>
+				<IfBlock name="IfBlock1">
+					<block>
+						<IfNode>
+							<if>
+								<!-- z1 and mousePressed -->
+								<NAryOp name="1" operator="and">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="z1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="mousePressed"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</if>
+							<then>
+								<Action>
+									<locals>
+										<Variable name="_L1">
+											<type>
+												<NamedType>
+													<type>
+														<TypeRef name="int32"/>
+													</type>
+												</NamedType>
+											</type>
+											<pragmas>
+												<ed:Variable oid="!ed/85/4A94/549C/680f29441af1"/>
+											</pragmas>
+										</Variable>
+									</locals>
+									<data>
+										<!-- zoneId = _L1; -->
+										<Equation>
+											<lefts>
+												<VariableRef name="zoneId"/>
+											</lefts>
+											<right>
+												<IdExpression>
+													<path>
+														<ConstVarRef name="_L1"/>
+													</path>
+												</IdExpression>
+											</right>
+											<pragmas>
+												<ed:Equation oid="!ed/7f/4A94/549C/680f29376321"/>
+											</pragmas>
+										</Equation>
+										<!-- _L1 = 0; -->
+										<Equation>
+											<lefts>
+												<VariableRef name="_L1"/>
+											</lefts>
+											<right>
+												<ConstValue value="0"/>
+											</right>
+											<pragmas>
+												<ed:Equation oid="!ed/84/4A94/549C/680f29443907"/>
+											</pragmas>
+										</Equation>
+									</data>
+									<pragmas>
+										<ed:Action oid="!ed/7d/4A94/549C/680f29273298"/>
+									</pragmas>
+								</Action>
+							</then>
+							<else>
+								<IfNode>
+									<if>
+										<!-- z2 and mousePressed -->
+										<NAryOp name="2" operator="and">
+											<operands>
+												<IdExpression>
+													<path>
+														<ConstVarRef name="z2"/>
+													</path>
+												</IdExpression>
+												<IdExpression>
+													<path>
+														<ConstVarRef name="mousePressed"/>
+													</path>
+												</IdExpression>
+											</operands>
+										</NAryOp>
+									</if>
+									<then>
+										<Action>
+											<locals>
+												<Variable name="_L1">
+													<type>
+														<NamedType>
+															<type>
+																<TypeRef name="int32"/>
+															</type>
+														</NamedType>
+													</type>
+													<pragmas>
+														<ed:Variable oid="!ed/ac/4A94/549C/680f29734aca"/>
+													</pragmas>
+												</Variable>
+											</locals>
+											<data>
+												<!-- _L1 = 1; -->
+												<Equation>
+													<lefts>
+														<VariableRef name="_L1"/>
+													</lefts>
+													<right>
+														<ConstValue value="1"/>
+													</right>
+													<pragmas>
+														<ed:Equation oid="!ed/ab/4A94/549C/680f29731c4c"/>
+													</pragmas>
+												</Equation>
+												<!-- zoneId = _L1; -->
+												<Equation>
+													<lefts>
+														<VariableRef name="zoneId"/>
+													</lefts>
+													<right>
+														<IdExpression>
+															<path>
+																<ConstVarRef name="_L1"/>
+															</path>
+														</IdExpression>
+													</right>
+													<pragmas>
+														<ed:Equation oid="!ed/ad/4A94/549C/680f29736060"/>
+													</pragmas>
+												</Equation>
+											</data>
+											<pragmas>
+												<ed:Action oid="!ed/95/4A94/549C/680f29645587"/>
+											</pragmas>
+										</Action>
+									</then>
+									<else>
+										<IfNode>
+											<if>
+												<!-- z3 and mousePressed -->
+												<NAryOp name="3" operator="and">
+													<operands>
+														<IdExpression>
+															<path>
+																<ConstVarRef name="z3"/>
+															</path>
+														</IdExpression>
+														<IdExpression>
+															<path>
+																<ConstVarRef name="mousePressed"/>
+															</path>
+														</IdExpression>
+													</operands>
+												</NAryOp>
+											</if>
+											<then>
+												<Action>
+													<locals>
+														<Variable name="_L1">
+															<type>
+																<NamedType>
+																	<type>
+																		<TypeRef name="int32"/>
+																	</type>
+																</NamedType>
+															</type>
+															<pragmas>
+																<ed:Variable oid="!ed/cd/4A94/549C/680f29827600"/>
+															</pragmas>
+														</Variable>
+													</locals>
+													<data>
+														<!-- _L1 = 2; -->
+														<Equation>
+															<lefts>
+																<VariableRef name="_L1"/>
+															</lefts>
+															<right>
+																<ConstValue value="2"/>
+															</right>
+															<pragmas>
+																<ed:Equation oid="!ed/cc/4A94/549C/680f2982316e"/>
+															</pragmas>
+														</Equation>
+														<!-- zoneId = _L1; -->
+														<Equation>
+															<lefts>
+																<VariableRef name="zoneId"/>
+															</lefts>
+															<right>
+																<IdExpression>
+																	<path>
+																		<ConstVarRef name="_L1"/>
+																	</path>
+																</IdExpression>
+															</right>
+															<pragmas>
+																<ed:Equation oid="!ed/ce/4A94/549C/680f29822e57"/>
+															</pragmas>
+														</Equation>
+													</data>
+													<pragmas>
+														<ed:Action oid="!ed/bc/4A94/549C/680f29805e1d"/>
+													</pragmas>
+												</Action>
+											</then>
+											<else>
+												<IfNode>
+													<if>
+														<!-- z4 and mousePressed -->
+														<NAryOp name="4" operator="and">
+															<operands>
+																<IdExpression>
+																	<path>
+																		<ConstVarRef name="z4"/>
+																	</path>
+																</IdExpression>
+																<IdExpression>
+																	<path>
+																		<ConstVarRef name="mousePressed"/>
+																	</path>
+																</IdExpression>
+															</operands>
+														</NAryOp>
+													</if>
+													<then>
+														<Action>
+															<locals>
+																<Variable name="_L1">
+																	<type>
+																		<NamedType>
+																			<type>
+																				<TypeRef name="int32"/>
+																			</type>
+																		</NamedType>
+																	</type>
+																	<pragmas>
+																		<ed:Variable oid="!ed/fa/4A94/549C/680f29a37414"/>
+																	</pragmas>
+																</Variable>
+															</locals>
+															<data>
+																<!-- _L1 = 3; -->
+																<Equation>
+																	<lefts>
+																		<VariableRef name="_L1"/>
+																	</lefts>
+																	<right>
+																		<ConstValue value="3"/>
+																	</right>
+																	<pragmas>
+																		<ed:Equation oid="!ed/f9/4A94/549C/680f29a32ddc"/>
+																	</pragmas>
+																</Equation>
+																<!-- zoneId = _L1; -->
+																<Equation>
+																	<lefts>
+																		<VariableRef name="zoneId"/>
+																	</lefts>
+																	<right>
+																		<IdExpression>
+																			<path>
+																				<ConstVarRef name="_L1"/>
+																			</path>
+																		</IdExpression>
+																	</right>
+																	<pragmas>
+																		<ed:Equation oid="!ed/fb/4A94/549C/680f29a36973"/>
+																	</pragmas>
+																</Equation>
+															</data>
+															<pragmas>
+																<ed:Action oid="!ed/e9/4A94/549C/680f29a1121"/>
+															</pragmas>
+														</Action>
+													</then>
+													<else>
+														<IfNode>
+															<if>
+																<IdExpression>
+																	<path>
+																		<ConstVarRef name="mousePressed"/>
+																	</path>
+																</IdExpression>
+															</if>
+															<then>
+																<Action>
+																	<locals>
+																		<Variable name="_L1">
+																			<type>
+																				<NamedType>
+																					<type>
+																						<TypeRef name="int32"/>
+																					</type>
+																				</NamedType>
+																			</type>
+																			<pragmas>
+																				<ed:Variable oid="!ed/247/58E1/32BC/680f4a3e35ce"/>
+																			</pragmas>
+																		</Variable>
+																	</locals>
+																	<data>
+																		<!-- zoneId = _L1; -->
+																		<Equation>
+																			<lefts>
+																				<VariableRef name="zoneId"/>
+																			</lefts>
+																			<right>
+																				<IdExpression>
+																					<path>
+																						<ConstVarRef name="_L1"/>
+																					</path>
+																				</IdExpression>
+																			</right>
+																			<pragmas>
+																				<ed:Equation oid="!ed/245/58E1/32BC/680f4a3edac"/>
+																			</pragmas>
+																		</Equation>
+																		<!-- _L1 = -1; -->
+																		<Equation>
+																			<lefts>
+																				<VariableRef name="_L1"/>
+																			</lefts>
+																			<right>
+																				<ConstValue value="-1"/>
+																			</right>
+																			<pragmas>
+																				<ed:Equation oid="!ed/246/58E1/32BC/680f4a3e60f0"/>
+																			</pragmas>
+																		</Equation>
+																	</data>
+																	<pragmas>
+																		<ed:Action oid="!ed/225/58E1/32BC/680f4a354538"/>
+																	</pragmas>
+																</Action>
+															</then>
+															<else>
+																<Action>
+																	<locals>
+																		<Variable name="_L1">
+																			<type>
+																				<NamedType>
+																					<type>
+																						<TypeRef name="int32"/>
+																					</type>
+																				</NamedType>
+																			</type>
+																			<pragmas>
+																				<ed:Variable oid="!ed/26f/58E1/32BC/680f4a5837db"/>
+																			</pragmas>
+																		</Variable>
+																	</locals>
+																	<data>
+																		<!-- zoneId = _L1; -->
+																		<Equation>
+																			<lefts>
+																				<VariableRef name="zoneId"/>
+																			</lefts>
+																			<right>
+																				<IdExpression>
+																					<path>
+																						<ConstVarRef name="_L1"/>
+																					</path>
+																				</IdExpression>
+																			</right>
+																			<pragmas>
+																				<ed:Equation oid="!ed/25e/58E1/32BC/680f4a5254ea"/>
+																			</pragmas>
+																		</Equation>
+																		<!-- _L1 =  last 'zoneId; -->
+																		<Equation>
+																			<lefts>
+																				<VariableRef name="_L1"/>
+																			</lefts>
+																			<right>
+																				<Last>
+																					<variable>
+																						<ConstVarRef name="zoneId"/>
+																					</variable>
+																				</Last>
+																			</right>
+																			<pragmas>
+																				<ed:Equation oid="!ed/26d/58E1/32BC/680f4a541e2a"/>
+																			</pragmas>
+																		</Equation>
+																	</data>
+																	<pragmas>
+																		<ed:Action oid="!ed/7e/4A94/549C/680f292773d4"/>
+																	</pragmas>
+																</Action>
+															</else>
+															<pragmas>
+																<ed:IfNode oid="!ed/21f/58E1/32BC/680f4a34d8b"/>
+															</pragmas>
+														</IfNode>
+													</else>
+													<pragmas>
+														<ed:IfNode oid="!ed/e3/4A94/549C/680f299f5d4c"/>
+													</pragmas>
+												</IfNode>
+											</else>
+											<pragmas>
+												<ed:IfNode oid="!ed/b6/4A94/549C/680f297f14d7"/>
+											</pragmas>
+										</IfNode>
+									</else>
+									<pragmas>
+										<ed:IfNode oid="!ed/8f/4A94/549C/680f29635d77"/>
+									</pragmas>
+								</IfNode>
+							</else>
+							<pragmas>
+								<ed:IfNode oid="!ed/7c/4A94/549C/680f29275bf4"/>
+							</pragmas>
+						</IfNode>
+					</block>
+					<pragmas>
+						<ed:IfBlock oid="!ed/76/4A94/549C/680f29251309"/>
+					</pragmas>
+				</IfBlock>
+			</data>
+			<pragmas>
+				<ed:Operator oid="!ed/1f/4A94/549C/680f26906b32" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/8">
+					<diagrams>
+						<NetDiagram name="ClickedZone_1" landscape="true" format="A4 (210 297)" oid="!ed/20/4A94/549C/680f26907903">
+							<presentationElements>
+								<IfBlockGE presentable="!ed/76/4A94/549C/680f29251309">
+									<position>
+										<Point x="3175" y="1879"/>
+									</position>
+									<size>
+										<Size width="11853" height="22410"/>
+									</size>
+								</IfBlockGE>
+								<ActionGE presentable="!ed/7d/4A94/549C/680f29273298">
+									<position>
+										<Point x="4974" y="2275"/>
+									</position>
+									<size>
+										<Size width="4710" height="1535"/>
+									</size>
+								</ActionGE>
+								<ActionGE presentable="!ed/7e/4A94/549C/680f292773d4">
+									<position>
+										<Point x="5345" y="20558"/>
+									</position>
+									<size>
+										<Size width="4710" height="3598"/>
+									</size>
+								</ActionGE>
+								<IfNodeGE labelWidth="2434" presentable="!ed/7c/4A94/549C/680f29275bf4">
+									<textAreas>
+										<TextArea text="z1 and mousePressed&#xA;
+&#xA;
+" role="181"/>
+									</textAreas>
+									<position>
+										<Point x="3625" y="2355"/>
+									</position>
+								</IfNodeGE>
+								<EquationGE presentable="!ed/7f/4A94/549C/680f29376321">
+									<position>
+										<Point x="7779" y="2963"/>
+									</position>
+									<size>
+										<Size width="317" height="503"/>
+									</size>
+								</EquationGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/84/4A94/549C/680f29443907">
+									<position>
+										<Point x="5927" y="3069"/>
+									</position>
+									<size>
+										<Size width="211" height="317"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/84/4A94/549C/680f29443907" dstEquation="!ed/7f/4A94/549C/680f29376321">
+									<positions>
+										<Point x="6138" y="3228"/>
+										<Point x="6985" y="3228"/>
+										<Point x="6985" y="3228"/>
+										<Point x="7832" y="3228"/>
+									</positions>
+								</Edge>
+								<IfNodeGE labelWidth="2434" presentable="!ed/8f/4A94/549C/680f29635d77">
+									<textAreas>
+										<TextArea text="z2 and mousePressed&#xA;
+" role="181"/>
+									</textAreas>
+									<position>
+										<Point x="3625" y="5662"/>
+									</position>
+								</IfNodeGE>
+								<ActionGE presentable="!ed/95/4A94/549C/680f29645587">
+									<position>
+										<Point x="5001" y="5583"/>
+									</position>
+									<size>
+										<Size width="4709" height="1667"/>
+									</size>
+								</ActionGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/ab/4A94/549C/680f29731c4c">
+									<position>
+										<Point x="5874" y="6297"/>
+									</position>
+									<size>
+										<Size width="212" height="317"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/ad/4A94/549C/680f29736060">
+									<position>
+										<Point x="7726" y="6191"/>
+									</position>
+									<size>
+										<Size width="317" height="503"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/ab/4A94/549C/680f29731c4c" dstEquation="!ed/ad/4A94/549C/680f29736060">
+									<positions>
+										<Point x="6085" y="6456"/>
+										<Point x="6932" y="6456"/>
+										<Point x="6932" y="6456"/>
+										<Point x="7779" y="6456"/>
+									</positions>
+								</Edge>
+								<IfNodeGE labelWidth="2434" presentable="!ed/b6/4A94/549C/680f297f14d7">
+									<textAreas>
+										<TextArea text="z3 and mousePressed&#xA;
+" role="181"/>
+									</textAreas>
+									<position>
+										<Point x="3625" y="8625"/>
+									</position>
+								</IfNodeGE>
+								<ActionGE presentable="!ed/bc/4A94/549C/680f29805e1d">
+									<position>
+										<Point x="5001" y="8546"/>
+									</position>
+									<size>
+										<Size width="4709" height="1323"/>
+									</size>
+								</ActionGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/cc/4A94/549C/680f2982316e">
+									<position>
+										<Point x="6006" y="9102"/>
+									</position>
+									<size>
+										<Size width="212" height="318"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/ce/4A94/549C/680f29822e57">
+									<position>
+										<Point x="7858" y="8996"/>
+									</position>
+									<size>
+										<Size width="318" height="503"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/cc/4A94/549C/680f2982316e" dstEquation="!ed/ce/4A94/549C/680f29822e57">
+									<positions>
+										<Point x="6218" y="9260"/>
+										<Point x="7064" y="9260"/>
+										<Point x="7064" y="9260"/>
+										<Point x="7911" y="9260"/>
+									</positions>
+								</Edge>
+								<IfNodeGE labelWidth="2434" presentable="!ed/e3/4A94/549C/680f299f5d4c">
+									<textAreas>
+										<TextArea text="z4 and mousePressed&#xA;
+" role="181"/>
+									</textAreas>
+									<position>
+										<Point x="3625" y="11456"/>
+									</position>
+								</IfNodeGE>
+								<ActionGE presentable="!ed/e9/4A94/549C/680f29a1121">
+									<position>
+										<Point x="5001" y="11377"/>
+									</position>
+									<size>
+										<Size width="4709" height="3598"/>
+									</size>
+								</ActionGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/f9/4A94/549C/680f29a32ddc">
+									<position>
+										<Point x="5821" y="12594"/>
+									</position>
+									<size>
+										<Size width="212" height="317"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/fb/4A94/549C/680f29a36973">
+									<position>
+										<Point x="7673" y="12488"/>
+									</position>
+									<size>
+										<Size width="318" height="502"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/f9/4A94/549C/680f29a32ddc" dstEquation="!ed/fb/4A94/549C/680f29a36973">
+									<positions>
+										<Point x="6033" y="12753"/>
+										<Point x="6879" y="12753"/>
+										<Point x="6879" y="12753"/>
+										<Point x="7726" y="12753"/>
+									</positions>
+								</Edge>
+								<IfNodeGE labelWidth="2170" presentable="!ed/21f/58E1/32BC/680f4a34d8b">
+									<textAreas>
+										<TextArea text="mousePressed&#xA;
+" role="181"/>
+									</textAreas>
+									<position>
+										<Point x="3625" y="16880"/>
+									</position>
+								</IfNodeGE>
+								<ActionGE presentable="!ed/225/58E1/32BC/680f4a354538">
+									<position>
+										<Point x="5001" y="16801"/>
+									</position>
+									<size>
+										<Size width="4709" height="3598"/>
+									</size>
+								</ActionGE>
+								<EquationGE presentable="!ed/245/58E1/32BC/680f4a3edac">
+									<position>
+										<Point x="7832" y="18362"/>
+									</position>
+									<size>
+										<Size width="318" height="502"/>
+									</size>
+								</EquationGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/246/58E1/32BC/680f4a3e60f0">
+									<position>
+										<Point x="5980" y="18468"/>
+									</position>
+									<size>
+										<Size width="212" height="317"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/246/58E1/32BC/680f4a3e60f0" dstEquation="!ed/245/58E1/32BC/680f4a3edac">
+									<positions>
+										<Point x="6191" y="18627"/>
+										<Point x="7038" y="18627"/>
+										<Point x="7038" y="18627"/>
+										<Point x="7885" y="18627"/>
+									</positions>
+								</Edge>
+								<EquationGE presentable="!ed/25e/58E1/32BC/680f4a5254ea">
+									<position>
+										<Point x="8387" y="22119"/>
+									</position>
+									<size>
+										<Size width="317" height="502"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/26d/58E1/32BC/680f4a541e2a">
+									<position>
+										<Point x="7144" y="22066"/>
+									</position>
+									<size>
+										<Size width="317" height="503"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/26d/58E1/32BC/680f4a541e2a" dstEquation="!ed/25e/58E1/32BC/680f4a5254ea">
+									<positions>
+										<Point x="7461" y="22304"/>
+										<Point x="7938" y="22304"/>
+										<Point x="7938" y="22384"/>
+										<Point x="8440" y="22384"/>
+									</positions>
+								</Edge>
+							</presentationElements>
+						</NetDiagram>
+					</diagrams>
+				</ed:Operator>
+			</pragmas>
+		</Operator>
+	</declarations>
+</File>

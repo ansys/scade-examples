@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="123" defaultConfiguration="2">
+	<props>
+		<Prop id="3" name="@STUDIO:PRODUCT">
+			<value>DISPLAY</value>
+		</Prop>
+		<Prop id="4" name="@SDY:RELEASE">
+			<value>25.2</value>
+		</Prop>
+		<Prop id="7" name="@SDY:DEFAULTCOLORTABLE">
+			<value>Widgets_colors.sct</value>
+			<value>Styles_colors.sct</value>
+		</Prop>
+		<Prop id="9" name="@SDY:DEFAULTLWTABLE">
+			<value>Widgets_line_width.swt</value>
+		</Prop>
+		<Prop id="11" name="@SDY:DEFAULTLSTABLE">
+			<value>Widgets_line_stipple.sst</value>
+		</Prop>
+		<Prop id="13" name="@SDY:TEXTURETABLE">
+			<value>Widgets_textures.stt</value>
+		</Prop>
+		<Prop id="15" name="@SDY:GRADIENTTABLE"/>
+		<Prop id="17" name="@SDY:FONTTABLE">
+			<value>font_table.sft</value>
+			<value>Widgets_fonts.sft</value>
+		</Prop>
+		<Prop id="19" name="@SDY:CONFTARGET">
+			<value>Windows</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="20" name="CONFIGURATIONS">
+			<value>18</value>
+			<value>28</value>
+			<value>37</value>
+		</Prop>
+		<Prop id="21" name="@SDY:CONFSOURCE">
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="22" name="@SDY:SUITEKCG">
+			<value>C QUAL663</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="23" name="@SDY:KCGTEMPLATE">
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="24" name="@SDY:CONFOUTPUT">
+			<value>%ModelName%_Exe</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="25" name="@SDY:APPPERIODICITY">
+			<value>33</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="26" name="@SDY:POINTERID">
+			<value>0</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="27" name="@SDY:KEYBOARDID">
+			<value>0</value>
+			<configuration>18</configuration>
+		</Prop>
+		<Prop id="29" name="@SDY:CONFTARGET">
+			<value>codegen</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="30" name="@SDY:CONFSOURCE">
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="31" name="@SDY:SUITEKCG">
+			<value>C QUAL663</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="32" name="@SDY:KCGTEMPLATE">
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="33" name="@SDY:CONFOUTPUT">
+			<value>%ModelName%_Code</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="34" name="@SDY:CODEGENERATOR">
+			<value>KCG672</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="35" name="@SDY:POINTERID">
+			<value>0</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="36" name="@SDY:KEYBOARDID">
+			<value>0</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="38" name="@SDY:CONFTARGET">
+			<value>Simulation</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="39" name="@SDY:CONFSOURCE">
+			<value>specification.sgfx</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="40" name="@SDY:SUITEKCG">
+			<value>C QUAL663</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="41" name="@SDY:KCGTEMPLATE">
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="42" name="@SDY:CONFOUTPUT">
+			<value>Simulation</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="43" name="@SDY:POINTERID">
+			<value>0</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="44" name="@SDY:KEYBOARDID">
+			<value>0</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="53" name="@SDY:VARSYNCHROAUTO">
+			<value>true</value>
+		</Prop>
+		<Prop id="75" name="@SDY:RULES">
+			<value>container:true</value>
+			<value>widgets_naming_pattern:true</value>
+			<value>contour_color:true</value>
+			<value>conditional_container:true</value>
+			<value>lines_optim:true</value>
+			<value>shape:true</value>
+			<value>visibility_object:true</value>
+			<value>widgets_naming_unicity:true</value>
+			<value>var_consistency:true</value>
+			<value>containers_optim:true</value>
+			<value>layer_ratio:true</value>
+			<value>transformation_rule:true</value>
+			<value>arc_crown:true</value>
+			<value>useless_masks:true</value>
+			<value>bool_expression_rule:true</value>
+			<value>transfos_optim:true</value>
+			<value>moving_surfaces:true</value>
+			<value>math_expression_rule:true</value>
+			<value>rectangle:true</value>
+			<value>static_container:true</value>
+			<value>broken_line:true</value>
+			<value>mask_object_checking:true</value>
+		</Prop>
+		<Prop id="77" name="@SDY:GLOBALDEFS"/>
+		<Prop id="85" name="@SDY:COSIMUBEHAVIOR">
+			<value>bc2df2b7-9da9-42a0-ba6d-e31fbc0f1489:-1:bfb72ba6-5e44-4b1d-9542-06fcab1c0276</value>
+			<configuration>37</configuration>
+		</Prop>
+		<Prop id="118" name="@SDY:XMXJVM">
+			<value>1024</value>
+			<configuration>37</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="5" extensions="sct;sft;sgt;sst;stt;swt" name="Resource Files">
+			<elements>
+				<FileRef id="6" persistAs="color_table.sct"/>
+				<FileRef id="8" persistAs="line_width_table.swt"/>
+				<FileRef id="10" persistAs="line_stipple_table.sst"/>
+				<FileRef id="12" persistAs="texture_table.stt"/>
+				<FileRef id="14" persistAs="gradient_table.sgt"/>
+				<FileRef id="16" persistAs="font_table.sft"/>
+			</elements>
+		</Folder>
+		<Folder id="45" extensions="asfx;ogfx;pgfx;sgfx" name="Model Files">
+			<elements>
+				<FileRef id="46" persistAs="specification.sgfx"/>
+				<FileRef id="78" persistAs="WindowManager.ogfx">
+					<props>
+						<Prop id="79" name="@SDY:MODELDEFINITIONS"/>
+						<Prop id="80" name="@SDY:MODELEXTINCLUDES"/>
+						<Prop id="81" name="@SDY:MODELEXTSOURCES"/>
+						<Prop id="82" name="@SDY:MODELEXTLIBRARIES"/>
+						<Prop id="83" name="@SDY:MODELDYNAMICLIBRARY">
+							<value>%ModelName%.dll</value>
+						</Prop>
+					</props>
+				</FileRef>
+				<FileRef id="86" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Compasses\NavCompass.ogfx"/>
+				<FileRef id="87" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\ADIs\ADI.ogfx"/>
+				<FileRef id="112" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Counters\AltitudeCounter.ogfx"/>
+				<FileRef id="115" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Compasses\NavRose.ogfx"/>
+			</elements>
+		</Folder>
+		<Folder id="72" extensions="etp" name="Libraries">
+			<elements>
+				<FileRef id="73" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Widgets\libWidgets.etp"/>
+				<FileRef id="117" persistAs="../libHMI/libHMI.etp"/>
+				<FileRef id="123" persistAs="../logic/libHMI.etp"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="2" name="Default"/>
+		<Configuration id="18" name="Windows"/>
+		<Configuration id="28" name="Code"/>
+		<Configuration id="37" name="Simulation"/>
+	</configurations>
+</Project>

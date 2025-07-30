@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<fontTable generateAsBitmap="true" generateHalo="true" name="font_table" size="8">
+    <fontDefinition index="0" path="fonts/Sans18.nfd"/>
+    <fontDefinition index="1" path="fonts/Sans26.nfd"/>
+    <fontDefinition index="2" path="fonts/SansBold18.nfd"/>
+    <fontDefinition index="3" path="fonts/SansBold26.nfd"/>
+    <fontDefinition index="4" path="fonts/Mono18.nfd"/>
+    <fontDefinition index="5" path="fonts/Mono26.nfd"/>
+    <fontDefinition index="6" path="fonts/MonoBold18.nfd"/>
+    <fontDefinition index="7" path="fonts/MonoBold26.nfd"/>
+</fontTable>
+
+<!-- crc32 : 1836632481 -->
+

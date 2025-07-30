@@ -27,6 +27,16 @@ Below is a list of Ansys SCADE models stored in this repository. They are typica
 
     .. grid-item-card:: Runtime Error Proof with SCADE Suite Design Verifier 
         :margin: 0 4 0 0
+        :img-top: _static/thumbnails/2025-07-30-window-manager.jpg
+
+        :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2025-07-30-window-manager>`
+
+        :fas:`fa-solid fa-code` :model_sources:`View sources <2025-07-30-window-manager>`
+
+        :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/scade-display-window-manager/>`__
+
+    .. grid-item-card:: Runtime Error Proof with SCADE Suite Design Verifier 
+        :margin: 0 4 0 0
         :img-top: _static/thumbnails/2025-07-16-dv-rte.jpg
 
         :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2025-07-16-dv-rte>`

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<specification>
+    <IDE>
+        <project path="hmi-design.etp"/>
+        <ratio horizontal="1" vertical="1"/>
+    </IDE>
+    <symbology>
+        <dimension height="1080" width="1920"/>
+    </symbology>
+    <children>
+        <layer oid="445c8274-7143-4968-b717-ac2aed416c6b">
+            <pathFromRoot value=""/>
+            <declaration>
+                <constants>
+                    <constant name="WIDTH" oid="4357f5bb-c111-4974-adf7-8f462e3df7db" type="float32">
+                        <init>1920.0</init>
+                    </constant>
+                </constants>
+            </declaration>
+            <properties name="symbology_layer">
+                <visible>
+                    <init>true</init>
+                </visible>
+                <origin>
+                    <x>
+                        <init>0.0</init>
+                    </x>
+                    <y>
+                        <init>0.0</init>
+                    </y>
+                </origin>
+                <id>
+                    <init>1</init>
+                </id>
+                <ratio horizontal="1" vertical="1"/>
+            </properties>
+            <children>
+                <referenceContainer oid="bc2df2b7-9da9-42a0-ba6d-e31fbc0f1489">
+                    <pathFromRoot value="0"/>
+                    <properties modular="false" name="WindowManager">
+                        <visible>
+                            <init>true</init>
+                        </visible>
+                        <origin>
+                            <x>
+                                <init>0.0</init>
+                            </x>
+                            <y>
+                                <init>0.0</init>
+                            </y>
+                        </origin>
+                        <scale>
+                            <x>
+                                <init>1.0</init>
+                            </x>
+                            <y>
+                                <init>1.0</init>
+                            </y>
+                        </scale>
+                        <rotate>
+                            <angle>
+                                <init>0.0</init>
+                            </angle>
+                        </rotate>
+                        <orientation clockwise="false"/>
+                        <file name="WindowManager.ogfx" path="."/>
+                        <crc value="3654230659"/>
+                        <inputParameters>
+                            <parameter control="false" name="WIDTH" oid="2b0c063c-da01-43aa-90d3-075c0ba842a5" type="float32">
+                                <expr>WIDTH</expr>
+                                <init>1920.0</init>
+                            </parameter>
+                        </inputParameters>
+                    </properties>
+                    <children>
+                        <referenceContainer oid="48350070-e9f1-4cc3-9b72-6524ceb1b267">
+                            <pathFromRoot value="0,0"/>
+                            <properties modular="false" name="NavCompass">
+                                <visible>
+                                    <init>true</init>
+                                </visible>
+                                <origin>
+                                    <x>
+                                        <init>6.0</init>
+                                    </x>
+                                    <y>
+                                        <init>2.0</init>
+                                    </y>
+                                </origin>
+                                <scale>
+                                    <x>
+                                        <init>1.0</init>
+                                    </x>
+                                    <y>
+                                        <init>1.0</init>
+                                    </y>
+                                </scale>
+                                <rotate>
+                                    <angle>
+                                        <init>0.0</init>
+                                    </angle>
+                                </rotate>
+                                <orientation clockwise="false"/>
+                                <file name="NavCompass.ogfx" path="$(SCADEDISPLAY_HOME)\examples\objects\Compasses"/>
+                                <crc value="2475761562"/>
+                                <inputParameters>
+                                    <parameter control="false" name="F_HEADING_ANGLE" oid="8c0a6309-480e-4318-b8f1-af0a8fb038ab" type="real">
+                                        <init>0.0</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_CARDINAL_POINTS" oid="d7203465-96f4-47b2-bf16-27ab2a15903b" representation="index" type="int">
+                                        <init>1</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_VIS_EXTERNAL_CIRCLE" oid="e9dc5d67-f74d-48da-8ab1-fcef98d2e62b" type="bool">
+                                        <init>false</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_VIS_INTERMEDIATE_GRAD" oid="8662715f-715d-4a21-9a02-78cdf97203c0" type="bool">
+                                        <init>true</init>
+                                    </parameter>
+                                </inputParameters>
+                            </properties>
+                            <children/>
+                        </referenceContainer>
+                        <referenceContainer oid="2c16f075-e344-446b-bdb7-809f42d53d2b">
+                            <pathFromRoot value="1,0"/>
+                            <properties modular="false" name="ADI">
+                                <visible>
+                                    <init>true</init>
+                                </visible>
+                                <origin>
+                                    <x>
+                                        <init>4.0</init>
+                                    </x>
+                                    <y>
+                                        <init>0.0</init>
+                                    </y>
+                                </origin>
+                                <scale>
+                                    <x>
+                                        <init>1.0</init>
+                                    </x>
+                                    <y>
+                                        <init>1.0</init>
+                                    </y>
+                                </scale>
+                                <rotate>
+                                    <angle>
+                                        <init>0.0</init>
+                                    </angle>
+                                </rotate>
+                                <orientation clockwise="false"/>
+                                <file name="ADI.ogfx" path="$(SCADEDISPLAY_HOME)\examples\objects\ADIs"/>
+                                <crc value="1405460324"/>
+                                <inputParameters>
+                                    <parameter control="false" name="B_VIS_ADI" oid="a572bcc3-9411-4357-b102-31a5b7611f5a" type="bool">
+                                        <init>true</init>
+                                    </parameter>
+                                    <parameter control="false" name="F_PITCH_ANGLE" oid="20b575d2-c1a7-4284-a075-8c4249a261ab" type="real">
+                                        <init>0.0</init>
+                                    </parameter>
+                                    <parameter control="false" name="F_PITCH_REF" oid="03cfd045-6dba-4605-aa29-194fed55af52" type="real">
+                                        <init>0.0</init>
+                                    </parameter>
+                                    <parameter control="false" name="F_ROLL_ANGLE" oid="faea9172-8d3d-441d-9ec3-55107e794795" type="real">
+                                        <init>0.0</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_ALARM_COLOR" oid="e56fba51-2f08-4686-a972-63b4088aaaad" representation="color" type="int">
+                                        <init>36</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_BUG_REF_COLOR" oid="79e10e12-07d4-4ee7-a580-d2f61c1d518f" representation="color" type="int">
+                                        <init>17</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_EARTH_COLOR" oid="88696b55-0184-4eb3-bd5b-ae1e32d3be40" representation="color" type="int">
+                                        <init>26</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_SKY_COLOR" oid="da67eb86-e0b7-4384-ab29-178e5befe10c" representation="color" type="int">
+                                        <init>61</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_WARNING_COLOR" oid="1e0e6470-b7df-4240-b64d-e95e77391363" representation="color" type="int">
+                                        <init>36</init>
+                                    </parameter>
+                                </inputParameters>
+                            </properties>
+                            <children/>
+                        </referenceContainer>
+                        <referenceContainer oid="b8be7fee-85c9-4450-a53d-6203e3307f53">
+                            <pathFromRoot value="2,0"/>
+                            <properties modular="false" name="NavRose">
+                                <visible>
+                                    <init>true</init>
+                                </visible>
+                                <origin>
+                                    <x>
+                                        <init>-2.0</init>
+                                    </x>
+                                    <y>
+                                        <init>-4.0</init>
+                                    </y>
+                                </origin>
+                                <scale>
+                                    <x>
+                                        <init>1.0</init>
+                                    </x>
+                                    <y>
+                                        <init>1.0</init>
+                                    </y>
+                                </scale>
+                                <rotate>
+                                    <angle>
+                                        <init>0.0</init>
+                                    </angle>
+                                </rotate>
+                                <orientation clockwise="false"/>
+                                <file name="NavRose.ogfx" path="$(SCADEDISPLAY_HOME)\examples\objects\Compasses"/>
+                                <crc value="558454719"/>
+                                <inputParameters>
+                                    <parameter control="false" name="B_VIS_NAV_ROSE" oid="900f6448-3025-4282-bb16-5c17cd2cec4e" type="bool">
+                                        <init>true</init>
+                                    </parameter>
+                                    <parameter control="false" name="F_NAV_ROSE_ANGLE" oid="50755e28-d9ea-44aa-8dd7-3d99fb58c52f" type="real">
+                                        <init>0.0</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_CARDINAL_POINTS" oid="b67cee82-a742-475f-9157-481e374355ea" representation="index" type="int">
+                                        <init>1</init>
+                                    </parameter>
+                                    <parameter control="false" name="PARAM_NAV_ROSE_STENCIL_ACTIVE" oid="feeac46c-1d8d-4ac2-bc5e-9469e13bb803" type="bool">
+                                        <init>true</init>
+                                    </parameter>
+                                </inputParameters>
+                            </properties>
+                            <children/>
+                        </referenceContainer>
+                        <container oid="5a659d14-0f8b-4084-996e-f8676310610d">
+                            <pathFromRoot value="3,0"/>
+                            <properties name="group">
+                                <visible>
+                                    <init>true</init>
+                                </visible>
+                                <origin>
+                                    <x>
+                                        <init>0.0</init>
+                                    </x>
+                                    <y>
+                                        <init>0.0</init>
+                                    </y>
+                                </origin>
+                                <priority>
+                                    <init>-1</init>
+                                </priority>
+                                <scale>
+                                    <x>
+                                        <init>1.0</init>
+                                    </x>
+                                    <y>
+                                        <init>1.0</init>
+                                    </y>
+                                </scale>
+                                <rotate>
+                                    <angle>
+                                        <init>0.0</init>
+                                    </angle>
+                                </rotate>
+                                <orientation clockwise="false"/>
+                                <static editorLinked="true" generateStaticSequence="true" maxX="0.0" maxY="0.0" minX="0.0" minY="0.0">
+                                    <init>false</init>
+                                </static>
+                            </properties>
+                            <children>
+                                <referenceContainer oid="1732ede2-b33c-4cfb-ab76-7bd4b32e1716">
+                                    <pathFromRoot value="0,3,0"/>
+                                    <properties modular="false" name="AltitudeCounter">
+                                        <visible>
+                                            <init>true</init>
+                                        </visible>
+                                        <origin>
+                                            <x>
+                                                <init>2.0</init>
+                                            </x>
+                                            <y>
+                                                <init>-186.0</init>
+                                            </y>
+                                        </origin>
+                                        <scale>
+                                            <x>
+                                                <init>1.0</init>
+                                            </x>
+                                            <y>
+                                                <init>1.0</init>
+                                            </y>
+                                        </scale>
+                                        <rotate>
+                                            <angle>
+                                                <init>0.0</init>
+                                            </angle>
+                                        </rotate>
+                                        <orientation clockwise="false"/>
+                                        <file name="AltitudeCounter.ogfx" path="$(SCADEDISPLAY_HOME)\examples\objects\Counters"/>
+                                        <crc value="2726611017"/>
+                                        <inputParameters>
+                                            <parameter control="false" name="B_VIS_ALTITUDE_COUNTER" oid="e71ea4e3-6547-4b3a-a8ee-0855be772a5f" type="bool">
+                                                <init>true</init>
+                                            </parameter>
+                                            <parameter control="false" name="F_ALTITUDE_VALUE" oid="1ff68733-aed9-4842-8b41-375bc8ea0a92" type="real">
+                                                <init>0.0</init>
+                                            </parameter>
+                                            <parameter control="false" name="F_PRESSURE_HPA" oid="2b5f5183-f8d1-46ea-bd29-ad34eb27d392" type="real">
+                                                <init>1013.0</init>
+                                            </parameter>
+                                        </inputParameters>
+                                    </properties>
+                                    <children/>
+                                </referenceContainer>
+                                <referenceContainer oid="02b9bbec-c0e4-4d60-9b04-d6d76b2bb609">
+                                    <pathFromRoot value="1,3,0"/>
+                                    <properties modular="false" name="AltitudeCounter">
+                                        <visible>
+                                            <init>true</init>
+                                        </visible>
+                                        <origin>
+                                            <x>
+                                                <init>-2.0</init>
+                                            </x>
+                                            <y>
+                                                <init>68.0</init>
+                                            </y>
+                                        </origin>
+                                        <scale>
+                                            <x>
+                                                <init>1.0</init>
+                                            </x>
+                                            <y>
+                                                <init>1.0</init>
+                                            </y>
+                                        </scale>
+                                        <rotate>
+                                            <angle>
+                                                <init>0.0</init>
+                                            </angle>
+                                        </rotate>
+                                        <orientation clockwise="false"/>
+                                        <file name="AltitudeCounter.ogfx" path="$(SCADEDISPLAY_HOME)\examples\objects\Counters"/>
+                                        <crc value="2726611017"/>
+                                        <inputParameters>
+                                            <parameter control="false" name="B_VIS_ALTITUDE_COUNTER" oid="e71ea4e3-6547-4b3a-a8ee-0855be772a5f" type="bool">
+                                                <init>true</init>
+                                            </parameter>
+                                            <parameter control="false" name="F_ALTITUDE_VALUE" oid="1ff68733-aed9-4842-8b41-375bc8ea0a92" type="real">
+                                                <init>0.0</init>
+                                            </parameter>
+                                            <parameter control="false" name="F_PRESSURE_HPA" oid="2b5f5183-f8d1-46ea-bd29-ad34eb27d392" type="real">
+                                                <init>1013.0</init>
+                                            </parameter>
+                                        </inputParameters>
+                                    </properties>
+                                    <children/>
+                                </referenceContainer>
+                            </children>
+                        </container>
+                    </children>
+                </referenceContainer>
+            </children>
+        </layer>
+    </children>
+</specification>
+
+<!-- crc32 : 2765498740 -->
+
