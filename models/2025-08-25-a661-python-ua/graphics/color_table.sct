@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<colorTable backgroundIndex="0" name="color_table" size="760">
+    <colorDefinition alpha="0xFF" index="0" name="BLACK" rgb="0x000000"/>
+    <colorDefinition alpha="0xFF" index="1" name="WHITE" rgb="0xFFFFFF"/>
+    <colorDefinition alpha="0xFF" index="2" name="GREY 2.5%" rgb="0xF9F9F9"/>
+    <colorDefinition alpha="0xFF" index="3" name="GREY 5%" rgb="0xF2F2F2"/>
+    <colorDefinition alpha="0xFF" index="4" name="GREY 7.5%" rgb="0xECECEC"/>
+    <colorDefinition alpha="0xFF" index="5" name="GREY 10%" rgb="0xE6E6E6"/>
+    <colorDefinition alpha="0xFF" index="6" name="GREY 20%" rgb="0xCCCCCC"/>
+    <colorDefinition alpha="0xFF" index="7" name="GREY 30%" rgb="0xB3B3B3"/>
+    <colorDefinition alpha="0xFF" index="8" name="GREY 40%" rgb="0x999999"/>
+    <colorDefinition alpha="0xFF" index="9" name="GREY 50%" rgb="0x808080"/>
+    <colorDefinition alpha="0xFF" index="10" name="GREY 60%" rgb="0x666666"/>
+    <colorDefinition alpha="0xFF" index="11" name="GREY 70%" rgb="0x4D4D4D"/>
+    <colorDefinition alpha="0xFF" index="12" name="GREY 80%" rgb="0x333333"/>
+    <colorDefinition alpha="0xFF" index="13" name="GREY 90%" rgb="0x1A1A1A"/>
+    <colorDefinition alpha="0xFF" index="21" name="RED" rgb="0xFF0000"/>
+    <colorDefinition alpha="0xFF" index="22" name="LIGHTEST RED" rgb="0xFFD5D5"/>
+    <colorDefinition alpha="0xFF" index="23" name="LIGHTER RED" rgb="0xFFAAAA"/>
+    <colorDefinition alpha="0xFF" index="24" name="LIGHT RED" rgb="0xFF5555"/>
+    <colorDefinition alpha="0xFF" index="25" name="DARK RED" rgb="0xD40000"/>
+    <colorDefinition alpha="0xFF" index="26" name="DARKER RED" rgb="0xAA0000"/>
+    <colorDefinition alpha="0xFF" index="27" name="DARKEST RED" rgb="0x800000"/>
+    <colorDefinition alpha="0xFF" index="31" name="AMBER" rgb="0xFF8000"/>
+    <colorDefinition alpha="0xFF" index="32" name="LIGHTEST AMBER" rgb="0xFFE6D5"/>
+    <colorDefinition alpha="0xFF" index="33" name="LIGHTER AMBER" rgb="0xFFCCAA"/>
+    <colorDefinition alpha="0xFF" index="34" name="LIGHT AMBER" rgb="0xFF9955"/>
+    <colorDefinition alpha="0xFF" index="35" name="DARK AMBER" rgb="0xD45500"/>
+    <colorDefinition alpha="0xFF" index="36" name="DARKER AMBER" rgb="0xAA4400"/>
+    <colorDefinition alpha="0xFF" index="37" name="DARKEST AMBER" rgb="0x803300"/>
+    <colorDefinition alpha="0xFF" index="41" name="YELLOW" rgb="0xFFFF00"/>
+    <colorDefinition alpha="0xFF" index="42" name="LIGHTEST YELLOW" rgb="0xFFF6D5"/>
+    <colorDefinition alpha="0xFF" index="43" name="LIGHTER YELLOW" rgb="0xFFEEAA"/>
+    <colorDefinition alpha="0xFF" index="44" name="LIGHT YELLOW" rgb="0xFFDD55"/>
+    <colorDefinition alpha="0xFF" index="45" name="DARK YELLOW" rgb="0xFFCC00"/>
+    <colorDefinition alpha="0xFF" index="46" name="DARKER YELLOW" rgb="0xD4AA00"/>
+    <colorDefinition alpha="0xFF" index="47" name="DARKEST YELLOW" rgb="0xAA8800"/>
+    <colorDefinition alpha="0xFF" index="51" name="GREEN" rgb="0x00FF00"/>
+    <colorDefinition alpha="0xFF" index="52" name="LIGHTEST GREEN" rgb="0xD5FFD5"/>
+    <colorDefinition alpha="0xFF" index="53" name="LIGHTER GREEN" rgb="0xAAFFAA"/>
+    <colorDefinition alpha="0xFF" index="54" name="LIGHT GREEN" rgb="0x55FF55"/>
+    <colorDefinition alpha="0xFF" index="55" name="DARK GREEN" rgb="0x00D400"/>
+    <colorDefinition alpha="0xFF" index="56" name="DARKER GREEN" rgb="0x00AA00"/>
+    <colorDefinition alpha="0xFF" index="57" name="DARKEST GREEN" rgb="0x008000"/>
+    <colorDefinition alpha="0xFF" index="61" name="CYAN" rgb="0x00FFFF"/>
+    <colorDefinition alpha="0xFF" index="62" name="LIGHTEST CYAN" rgb="0xD5FFF6"/>
+    <colorDefinition alpha="0xFF" index="63" name="LIGHTER CYAN" rgb="0xAAFFEE"/>
+    <colorDefinition alpha="0xFF" index="64" name="LIGHT CYAN" rgb="0x55FFDD"/>
+    <colorDefinition alpha="0xFF" index="65" name="DARK CYAN" rgb="0x00D4AA"/>
+    <colorDefinition alpha="0xFF" index="66" name="DARKER CYAN" rgb="0x00AA88"/>
+    <colorDefinition alpha="0xFF" index="67" name="DARKEST CYAN" rgb="0x006666"/>
+    <colorDefinition alpha="0xFF" index="71" name="BLUE" rgb="0x0000FF"/>
+    <colorDefinition alpha="0xFF" index="72" name="LIGHTEST BLUE" rgb="0xD5D5FF"/>
+    <colorDefinition alpha="0xFF" index="73" name="LIGHTER BLUE" rgb="0xAAAAFF"/>
+    <colorDefinition alpha="0xFF" index="74" name="LIGHT BLUE" rgb="0x5555FF"/>
+    <colorDefinition alpha="0xFF" index="75" name="DARK BLUE" rgb="0x0000D4"/>
+    <colorDefinition alpha="0xFF" index="76" name="DARKER BLUE" rgb="0x0000AA"/>
+    <colorDefinition alpha="0xFF" index="77" name="DARKEST BLUE" rgb="0x000080"/>
+    <colorDefinition alpha="0xFF" index="81" name="MAGENTA" rgb="0xFF00FF"/>
+    <colorDefinition alpha="0xFF" index="82" name="LIGHTEST MAGENTA" rgb="0xFFD5F6"/>
+    <colorDefinition alpha="0xFF" index="83" name="LIGHTER MAGENTA" rgb="0xFFAAEE"/>
+    <colorDefinition alpha="0xFF" index="86" name="DARKER MAGENTA" rgb="0xD400AA"/>
+    <colorDefinition alpha="0xFF" index="87" name="DARKEST MAGENTA" rgb="0x800066"/>
+    <colorDefinition alpha="0xFF" index="300" name="WL BLACK" rgb="0x000000"/>
+    <colorDefinition alpha="0xFF" index="301" name="WL WHITE" rgb="0xFFFFFF"/>
+    <colorDefinition alpha="0xFF" index="302" name="WL 2.5% GREY" rgb="0xF9F9F9"/>
+    <colorDefinition alpha="0xFF" index="303" name="WL 5% GREY" rgb="0xF2F2F2"/>
+    <colorDefinition alpha="0xFF" index="304" name="WL 7.5% GREY" rgb="0xECECEC"/>
+    <colorDefinition alpha="0xFF" index="305" name="WL 10% GREY" rgb="0xE6E6E6"/>
+    <colorDefinition alpha="0xFF" index="306" name="WL 20% GREY" rgb="0xCCCCCC"/>
+    <colorDefinition alpha="0xFF" index="307" name="WL 30% GREY" rgb="0xB3B3B3"/>
+    <colorDefinition alpha="0xFF" index="308" name="WL 40% GREY" rgb="0x999999"/>
+    <colorDefinition alpha="0xFF" index="309" name="WL 50% GREY" rgb="0x808080"/>
+    <colorDefinition alpha="0xFF" index="310" name="WL 60% GREY" rgb="0x666666"/>
+    <colorDefinition alpha="0xFF" index="311" name="WL 70% GREY" rgb="0x4D4D4D"/>
+    <colorDefinition alpha="0xFF" index="312" name="WL 80% GREY" rgb="0x333333"/>
+    <colorDefinition alpha="0xFF" index="313" name="WL 90% GREY" rgb="0x1A1A1A"/>
+    <colorDefinition alpha="0xFF" index="321" name="WL RED" rgb="0xFF0000"/>
+    <colorDefinition alpha="0xFF" index="322" name="WL LIGHTEST RED" rgb="0xFFD5D5"/>
+    <colorDefinition alpha="0xFF" index="323" name="WL LIGHTER RED" rgb="0xFFAAAA"/>
+    <colorDefinition alpha="0xFF" index="324" name="WL LIGHT RED" rgb="0xFF5555"/>
+    <colorDefinition alpha="0xFF" index="325" name="WL DARK RED" rgb="0xD40000"/>
+    <colorDefinition alpha="0xFF" index="326" name="WL DARKER RED" rgb="0xAA0000"/>
+    <colorDefinition alpha="0xFF" index="327" name="WL DARKEST RED" rgb="0x800000"/>
+    <colorDefinition alpha="0xFF" index="331" name="WL AMBER" rgb="0xFF8000"/>
+    <colorDefinition alpha="0xFF" index="332" name="WL LIGHTEST AMBER" rgb="0xFFE6D5"/>
+    <colorDefinition alpha="0xFF" index="333" name="WL LIGHTER AMBER" rgb="0xFFCCAA"/>
+    <colorDefinition alpha="0xFF" index="334" name="WL LIGHT AMBER" rgb="0xFF9955"/>
+    <colorDefinition alpha="0xFF" index="335" name="WL DARK AMBER" rgb="0xD45500"/>
+    <colorDefinition alpha="0xFF" index="336" name="WL DARKER AMBER" rgb="0xAA4400"/>
+    <colorDefinition alpha="0xFF" index="337" name="WL DARKEST AMBER" rgb="0x803300"/>
+    <colorDefinition alpha="0xFF" index="341" name="WL YELLOW" rgb="0xFFFF00"/>
+    <colorDefinition alpha="0xFF" index="342" name="WL LIGHTEST YELLOW" rgb="0xFFF6D5"/>
+    <colorDefinition alpha="0xFF" index="343" name="WL LIGHTER YELLOW" rgb="0xFFEEAA"/>
+    <colorDefinition alpha="0xFF" index="344" name="WL LIGHT YELLOW" rgb="0xFFDD55"/>
+    <colorDefinition alpha="0xFF" index="345" name="WL DARK YELLOW" rgb="0xFFCC00"/>
+    <colorDefinition alpha="0xFF" index="346" name="WL DARKER YELLOW" rgb="0xD4AA00"/>
+    <colorDefinition alpha="0xFF" index="347" name="WL DARKEST YELLOW" rgb="0xAA8800"/>
+    <colorDefinition alpha="0xFF" index="351" name="WL GREEN" rgb="0x00FF00"/>
+    <colorDefinition alpha="0xFF" index="352" name="WL LIGHTEST GREEN" rgb="0xD5FFD5"/>
+    <colorDefinition alpha="0xFF" index="353" name="WL LIGHTER GREEN" rgb="0xAAFFAA"/>
+    <colorDefinition alpha="0xFF" index="354" name="WL LIGHT GREEN" rgb="0x55FF55"/>
+    <colorDefinition alpha="0xFF" index="355" name="WL DARK GREEN" rgb="0x00D400"/>
+    <colorDefinition alpha="0xFF" index="356" name="WL DARKER GREEN" rgb="0x00AA00"/>
+    <colorDefinition alpha="0xFF" index="357" name="WL DARKEST GREEN" rgb="0x008000"/>
+    <colorDefinition alpha="0xFF" index="361" name="WL CYAN" rgb="0x00FFFF"/>
+    <colorDefinition alpha="0xFF" index="362" name="WL LIGHTEST CYAN" rgb="0xD5FFF6"/>
+    <colorDefinition alpha="0xFF" index="363" name="WL LIGHTER CYAN" rgb="0xAAFFEE"/>
+    <colorDefinition alpha="0xFF" index="364" name="WL LIGHT CYAN" rgb="0x55FFDD"/>
+    <colorDefinition alpha="0xFF" index="365" name="WL DARK CYAN" rgb="0x00D4AA"/>
+    <colorDefinition alpha="0xFF" index="366" name="WL DARKER CYAN" rgb="0x00AA88"/>
+    <colorDefinition alpha="0xFF" index="367" name="WL DARKEST CYAN" rgb="0x006666"/>
+    <colorDefinition alpha="0xFF" index="371" name="WL BLUE" rgb="0x0000FF"/>
+    <colorDefinition alpha="0xFF" index="372" name="WL LIGHTEST BLUE" rgb="0xD5D5FF"/>
+    <colorDefinition alpha="0xFF" index="373" name="WL LIGHTER BLUE" rgb="0xAAAAFF"/>
+    <colorDefinition alpha="0xFF" index="374" name="WL LIGHT BLUE" rgb="0x5555FF"/>
+    <colorDefinition alpha="0xFF" index="375" name="WL DARK BLUE" rgb="0x0000D4"/>
+    <colorDefinition alpha="0xFF" index="376" name="WL DARKER BLUE" rgb="0x0000AA"/>
+    <colorDefinition alpha="0xFF" index="377" name="WL DARKEST BLUE" rgb="0x000080"/>
+    <colorDefinition alpha="0xFF" index="381" name="WL MAGENTA" rgb="0xFF00FF"/>
+    <colorDefinition alpha="0xFF" index="382" name="WL LIGHTEST MAGENTA" rgb="0xFFD5F6"/>
+    <colorDefinition alpha="0xFF" index="383" name="WL LIGHTER MAGENTA" rgb="0xFFAAEE"/>
+    <colorDefinition alpha="0xFF" index="386" name="WL DARKER MAGENTA" rgb="0xD400AA"/>
+    <colorDefinition alpha="0xFF" index="387" name="WL DARKEST MAGENTA" rgb="0x800066"/>
+    <colorDefinition alpha="0xFF" index="401" name="WL HIGHLIGHT" rgb="0x1A92FF"/>
+    <colorDefinition alpha="0xFF" index="402" name="WL FOCUS" rgb="0xFF0033"/>
+    <colorDefinition alpha="0xFF" index="403" name="WL_FOCUS_DISABLED" rgb="0x976770"/>
+    <colorDefinition alpha="0xFF" index="500" name="MAPGRIP_0" rgb="0x141A36"/>
+    <colorDefinition alpha="0xFF" index="501" name="MAPGRIP_1" rgb="0x041933"/>
+    <colorDefinition alpha="0xFF" index="502" name="MAPGRIP_2" rgb="0x000A28"/>
+    <colorDefinition alpha="0xFF" index="503" name="MAPGRIP_3" rgb="0x030A32"/>
+    <colorDefinition alpha="0xFF" index="504" name="MAPGRIP_4" rgb="0x120B35"/>
+    <colorDefinition alpha="0xFF" index="505" name="MAPGRIP_5" rgb="0x152837"/>
+    <colorDefinition alpha="0xFF" index="506" name="MAPGRIP_6" rgb="0x231D45"/>
+    <colorDefinition alpha="0xFF" index="507" name="MAPGRIP_7" rgb="0x252937"/>
+    <colorDefinition alpha="0xFF" index="508" name="MAPGRIP_8" rgb="0x2C3649"/>
+    <colorDefinition alpha="0xFF" index="509" name="MAPGRIP_9" rgb="0x021626"/>
+    <colorDefinition alpha="0xFF" index="510" name="MAPGRIP_10" rgb="0x020B14"/>
+    <colorDefinition alpha="0xFF" index="511" name="MAPGRIP_11" rgb="0x120A26"/>
+    <colorDefinition alpha="0xFF" index="512" name="MAPGRIP_12" rgb="0x151927"/>
+    <colorDefinition alpha="0xFF" index="513" name="MAPGRIP_13" rgb="0x433C4A"/>
+    <colorDefinition alpha="0xFF" index="514" name="MAPGRIP_14" rgb="0x4E5867"/>
+    <colorDefinition alpha="0xFF" index="515" name="MAPGRIP_15" rgb="0x6E7273"/>
+    <colorDefinition alpha="0xFF" index="516" name="MAPGRIP_16" rgb="0x4F524F"/>
+    <colorDefinition alpha="0xFF" index="517" name="MAPGRIP_17" rgb="0x625D69"/>
+    <colorDefinition alpha="0xFF" index="518" name="MAPGRIP_18" rgb="0x837D88"/>
+    <colorDefinition alpha="0xFF" index="519" name="MAPGRIP_19" rgb="0x857B6F"/>
+    <colorDefinition alpha="0xFF" index="520" name="MAPGRIP_20" rgb="0x332C36"/>
+    <colorDefinition alpha="0xFF" index="521" name="MAPGRIP_21" rgb="0x363837"/>
+    <colorDefinition alpha="0xFF" index="522" name="MAPGRIP_22" rgb="0x231C2A"/>
+    <colorDefinition alpha="0xFF" index="523" name="MAPGRIP_23" rgb="0x6F7A86"/>
+    <colorDefinition alpha="0xFF" index="524" name="MAPGRIP_24" rgb="0x919BA5"/>
+    <colorDefinition alpha="0xFF" index="525" name="MAPGRIP_25" rgb="0x939491"/>
+    <colorDefinition alpha="0xFF" index="526" name="MAPGRIP_26" rgb="0xA39EA5"/>
+    <colorDefinition alpha="0xFF" index="527" name="MAPGRIP_27" rgb="0xB2B1AC"/>
+    <colorDefinition alpha="0xFF" index="528" name="MAPGRIP_28" rgb="0xC8BEE2"/>
+    <colorDefinition alpha="0xFF" index="529" name="MAPGRIP_29" rgb="0xDAE5EB"/>
+    <colorDefinition alpha="0xFF" index="530" name="MAPGRIP_30" rgb="0xFCFCFB"/>
+    <colorDefinition alpha="0xFF" index="531" name="MAPGRIP_31" rgb="0xB3BBC5"/>
+    <colorDefinition alpha="0xFF" index="532" name="MAPGRIP_32" rgb="0xD4DBE4"/>
+    <colorDefinition alpha="0xFF" index="533" name="MAPGRIP_33" rgb="0x433E65"/>
+    <colorDefinition alpha="0xFF" index="534" name="MAPGRIP_34" rgb="0xE3DEE5"/>
+    <colorDefinition alpha="0xFF" index="535" name="MAPGRIP_35" rgb="0xC3BEC5"/>
+    <colorDefinition alpha="0xFF" index="536" name="MAPGRIP_36" rgb="0x615D82"/>
+    <colorDefinition alpha="0xFF" index="537" name="MAPGRIP_37" rgb="0xBBC4CA"/>
+    <colorDefinition alpha="0xFF" index="538" name="MAPGRIP_38" rgb="0xD2CFCA"/>
+    <colorDefinition alpha="0xFF" index="539" name="MAPGRIP_39" rgb="0x9BA4AA"/>
+    <colorDefinition alpha="0xFF" index="540" name="MAPGRIP_40" rgb="0x78868F"/>
+    <colorDefinition alpha="0xFF" index="541" name="MAPGRIP_41" rgb="0xBDC2B9"/>
+    <colorDefinition alpha="0xFF" index="542" name="MAPGRIP_42" rgb="0x9DA29B"/>
+    <colorDefinition alpha="0xFF" index="543" name="MAPGRIP_43" rgb="0x798573"/>
+    <colorDefinition alpha="0xFF" index="544" name="MAPGRIP_44" rgb="0x707CA4"/>
+    <colorDefinition alpha="0xFF" index="545" name="MAPGRIP_45" rgb="0x263637"/>
+    <colorDefinition alpha="0xFF" index="546" name="MAPGRIP_46" rgb="0xA1A0CA"/>
+    <colorDefinition alpha="0xFF" index="547" name="MAPGRIP_47" rgb="0xDCE3D8"/>
+    <colorDefinition alpha="0xFF" index="548" name="MAPGRIP_48" rgb="0x57666E"/>
+    <colorDefinition alpha="0xFF" index="549" name="MAPGRIP_49" rgb="0xF4ECD3"/>
+    <colorDefinition alpha="0xFF" index="550" name="MAPGRIP_50" rgb="0xA49C91"/>
+    <colorDefinition alpha="0xFF" index="551" name="MAPGRIP_51" rgb="0x252926"/>
+    <colorDefinition alpha="0xFF" index="552" name="MAPGRIP_52" rgb="0x344950"/>
+    <colorDefinition alpha="0xFF" index="553" name="MAPGRIP_53" rgb="0x152727"/>
+    <colorDefinition alpha="0xFF" index="554" name="MAPGRIP_54" rgb="0x241B0B"/>
+    <colorDefinition alpha="0xFF" index="555" name="MAPGRIP_55" rgb="0xC5BCB1"/>
+    <colorDefinition alpha="0xFF" index="556" name="MAPGRIP_56" rgb="0xACA699"/>
+    <colorDefinition alpha="0xFF" index="557" name="MAPGRIP_57" rgb="0xE5DACD"/>
+    <colorDefinition alpha="0xFF" index="558" name="MAPGRIP_58" rgb="0x342B25"/>
+    <colorDefinition alpha="0xFF" index="559" name="MAPGRIP_59" rgb="0xCEC6B9"/>
+    <colorDefinition alpha="0xFF" index="560" name="MAPGRIP_60" rgb="0x605B84"/>
+    <colorDefinition alpha="0xFF" index="561" name="MAPGRIP_61" rgb="0x7893A9"/>
+    <colorDefinition alpha="0xFF" index="562" name="MAPGRIP_62" rgb="0x2F3964"/>
+    <colorDefinition alpha="0xFF" index="563" name="MAPGRIP_63" rgb="0x364F67"/>
+    <colorDefinition alpha="0xFF" index="564" name="MAPGRIP_64" rgb="0x615D8B"/>
+    <colorDefinition alpha="0xFF" index="565" name="MAPGRIP_65" rgb="0x082328"/>
+    <colorDefinition alpha="0xFF" index="566" name="MAPGRIP_66" rgb="0x0B1744"/>
+    <colorDefinition alpha="0xFF" index="567" name="MAPGRIP_67" rgb="0x8A9DC4"/>
+    <colorDefinition alpha="0xFF" index="568" name="MAPGRIP_68" rgb="0x183437"/>
+    <colorDefinition alpha="0xFF" index="569" name="MAPGRIP_69" rgb="0x918B70"/>
+    <colorDefinition alpha="0xFF" index="570" name="MAPGRIP_70" rgb="0x746D47"/>
+    <colorDefinition alpha="0xFF" index="571" name="MAPGRIP_71" rgb="0x443B19"/>
+    <colorDefinition alpha="0xFF" index="572" name="MAPGRIP_72" rgb="0x6A5834"/>
+    <colorDefinition alpha="0xFF" index="573" name="MAPGRIP_73" rgb="0x8D734B"/>
+    <colorDefinition alpha="0xFF" index="574" name="MAPGRIP_74" rgb="0x948756"/>
+    <colorDefinition alpha="0xFF" index="575" name="MAPGRIP_75" rgb="0x8C853B"/>
+    <colorDefinition alpha="0xFF" index="576" name="MAPGRIP_76" rgb="0xB6C796"/>
+    <colorDefinition alpha="0xFF" index="577" name="MAPGRIP_77" rgb="0x78854E"/>
+    <colorDefinition alpha="0xFF" index="578" name="MAPGRIP_78" rgb="0x6D6639"/>
+    <colorDefinition alpha="0xFF" index="579" name="MAPGRIP_79" rgb="0x674D1A"/>
+    <colorDefinition alpha="0xFF" index="580" name="MAPGRIP_80" rgb="0x895D42"/>
+    <colorDefinition alpha="0xFF" index="581" name="MAPGRIP_81" rgb="0xA87C62"/>
+    <colorDefinition alpha="0xFF" index="582" name="MAPGRIP_82" rgb="0xB7E8D2"/>
+    <colorDefinition alpha="0xFF" index="583" name="MAPGRIP_83" rgb="0x183527"/>
+    <colorDefinition alpha="0xFF" index="584" name="MAPGRIP_84" rgb="0x082436"/>
+    <colorDefinition alpha="0xFF" index="585" name="MAPGRIP_85" rgb="0x1A4410"/>
+    <colorDefinition alpha="0xFF" index="586" name="MAPGRIP_86" rgb="0x293724"/>
+    <colorDefinition alpha="0xFF" index="587" name="MAPGRIP_87" rgb="0x134831"/>
+    <colorDefinition alpha="0xFF" index="588" name="MAPGRIP_88" rgb="0x394A24"/>
+    <colorDefinition alpha="0xFF" index="589" name="MAPGRIP_89" rgb="0x132F45"/>
+    <colorDefinition alpha="0xFF" index="590" name="MAPGRIP_90" rgb="0x0E4C4D"/>
+    <colorDefinition alpha="0xFF" index="591" name="MAPGRIP_91" rgb="0x577088"/>
+    <colorDefinition alpha="0xFF" index="592" name="MAPGRIP_92" rgb="0x95B0C8"/>
+    <colorDefinition alpha="0xFF" index="593" name="MAPGRIP_93" rgb="0xB0BDE3"/>
+    <colorDefinition alpha="0xFF" index="594" name="MAPGRIP_94" rgb="0x366C89"/>
+    <colorDefinition alpha="0xFF" index="595" name="MAPGRIP_95" rgb="0xB09669"/>
+    <colorDefinition alpha="0xFF" index="596" name="MAPGRIP_96" rgb="0x46481B"/>
+    <colorDefinition alpha="0xFF" index="597" name="MAPGRIP_97" rgb="0x663D23"/>
+    <colorDefinition alpha="0xFF" index="598" name="MAPGRIP_98" rgb="0x4E5029"/>
+    <colorDefinition alpha="0xFF" index="599" name="MAPGRIP_99" rgb="0xD8E5B8"/>
+    <colorDefinition alpha="0xFF" index="600" name="MAPGRIP_100" rgb="0xDAE49D"/>
+    <colorDefinition alpha="0xFF" index="601" name="MAPGRIP_101" rgb="0xDAC497"/>
+    <colorDefinition alpha="0xFF" index="602" name="MAPGRIP_102" rgb="0xD1B58B"/>
+    <colorDefinition alpha="0xFF" index="603" name="MAPGRIP_103" rgb="0xB8A573"/>
+    <colorDefinition alpha="0xFF" index="604" name="MAPGRIP_104" rgb="0x8D673B"/>
+    <colorDefinition alpha="0xFF" index="605" name="MAPGRIP_105" rgb="0x6B641A"/>
+    <colorDefinition alpha="0xFF" index="606" name="MAPGRIP_106" rgb="0x1A2C0D"/>
+    <colorDefinition alpha="0xFF" index="607" name="MAPGRIP_107" rgb="0x083527"/>
+    <colorDefinition alpha="0xFF" index="608" name="MAPGRIP_108" rgb="0xC59E84"/>
+    <colorDefinition alpha="0xFF" index="609" name="MAPGRIP_109" rgb="0x346B6B"/>
+    <colorDefinition alpha="0xFF" index="610" name="MAPGRIP_110" rgb="0x093537"/>
+    <colorDefinition alpha="0xFF" index="611" name="MAPGRIP_111" rgb="0x335688"/>
+    <colorDefinition alpha="0xFF" index="612" name="MAPGRIP_112" rgb="0x99C5D3"/>
+    <colorDefinition alpha="0xFF" index="613" name="MAPGRIP_113" rgb="0x518B6E"/>
+    <colorDefinition alpha="0xFF" index="614" name="MAPGRIP_114" rgb="0x528A50"/>
+    <colorDefinition alpha="0xFF" index="615" name="MAPGRIP_115" rgb="0x2A3613"/>
+    <colorDefinition alpha="0xFF" index="616" name="MAPGRIP_116" rgb="0x91A759"/>
+    <colorDefinition alpha="0xFF" index="617" name="MAPGRIP_117" rgb="0xCCAA76"/>
+    <colorDefinition alpha="0xFF" index="618" name="MAPGRIP_118" rgb="0xB5A35B"/>
+    <colorDefinition alpha="0xFF" index="619" name="MAPGRIP_119" rgb="0xAB8A58"/>
+    <colorDefinition alpha="0xFF" index="620" name="MAPGRIP_120" rgb="0x98A672"/>
+    <colorDefinition alpha="0xFF" index="621" name="MAPGRIP_121" rgb="0x373A23"/>
+    <colorDefinition alpha="0xFF" index="622" name="MAPGRIP_122" rgb="0x95C9B1"/>
+    <colorDefinition alpha="0xFF" index="623" name="MAPGRIP_123" rgb="0x0E5167"/>
+    <colorDefinition alpha="0xFF" index="624" name="MAPGRIP_124" rgb="0x113568"/>
+    <colorDefinition alpha="0xFF" index="625" name="MAPGRIP_125" rgb="0x32694E"/>
+    <colorDefinition alpha="0xFF" index="626" name="MAPGRIP_126" rgb="0x57674B"/>
+    <colorDefinition alpha="0xFF" index="627" name="MAPGRIP_127" rgb="0x556430"/>
+    <colorDefinition alpha="0xFF" index="628" name="MAPGRIP_128" rgb="0x6D5C45"/>
+    <colorDefinition alpha="0xFF" index="629" name="MAPGRIP_129" rgb="0x623E42"/>
+    <colorDefinition alpha="0xFF" index="630" name="MAPGRIP_130" rgb="0xB6E9F7"/>
+    <colorDefinition alpha="0xFF" index="631" name="MAPGRIP_131" rgb="0xB5D0E8"/>
+    <colorDefinition alpha="0xFF" index="632" name="MAPGRIP_132" rgb="0x56898C"/>
+    <colorDefinition alpha="0xFF" index="633" name="MAPGRIP_133" rgb="0x515B84"/>
+    <colorDefinition alpha="0xFF" index="634" name="MAPGRIP_134" rgb="0x72A990"/>
+    <colorDefinition alpha="0xFF" index="635" name="MAPGRIP_135" rgb="0x5176A6"/>
+    <colorDefinition alpha="0xFF" index="636" name="MAPGRIP_136" rgb="0x334718"/>
+    <colorDefinition alpha="0xFF" index="637" name="MAPGRIP_137" rgb="0x77A5B4"/>
+    <colorDefinition alpha="0xFF" index="638" name="MAPGRIP_138" rgb="0x453C24"/>
+    <colorDefinition alpha="0xFF" index="639" name="MAPGRIP_139" rgb="0xF4D7A9"/>
+    <colorDefinition alpha="0xFF" index="640" name="MAPGRIP_140" rgb="0x183F83"/>
+    <colorDefinition alpha="0xFF" index="641" name="MAPGRIP_141" rgb="0x2F8B6E"/>
+    <colorDefinition alpha="0xFF" index="642" name="MAPGRIP_142" rgb="0x126B4F"/>
+    <colorDefinition alpha="0xFF" index="643" name="MAPGRIP_143" rgb="0x461D0E"/>
+    <colorDefinition alpha="0xFF" index="644" name="MAPGRIP_144" rgb="0x396428"/>
+    <colorDefinition alpha="0xFF" index="645" name="MAPGRIP_145" rgb="0x98C791"/>
+    <colorDefinition alpha="0xFF" index="646" name="MAPGRIP_146" rgb="0xAEE5B2"/>
+    <colorDefinition alpha="0xFF" index="647" name="MAPGRIP_147" rgb="0x73A871"/>
+    <colorDefinition alpha="0xFF" index="648" name="MAPGRIP_148" rgb="0x663B19"/>
+    <colorDefinition alpha="0xFF" index="649" name="MAPGRIP_149" rgb="0x126737"/>
+    <colorDefinition alpha="0xFF" index="650" name="MAPGRIP_150" rgb="0x578EA9"/>
+    <colorDefinition alpha="0xFF" index="651" name="MAPGRIP_151" rgb="0x79A5C9"/>
+    <colorDefinition alpha="0xFF" index="652" name="MAPGRIP_152" rgb="0x186B15"/>
+    <colorDefinition alpha="0xFF" index="653" name="MAPGRIP_153" rgb="0x93BCE3"/>
+    <colorDefinition alpha="0xFF" index="654" name="MAPGRIP_154" rgb="0x749DC4"/>
+    <colorDefinition alpha="0xFF" index="655" name="MAPGRIP_155" rgb="0xD6C27A"/>
+    <colorDefinition alpha="0xFF" index="656" name="MAPGRIP_156" rgb="0xB4C376"/>
+    <colorDefinition alpha="0xFF" index="657" name="MAPGRIP_157" rgb="0x72833B"/>
+    <colorDefinition alpha="0xFF" index="658" name="MAPGRIP_158" rgb="0x48631C"/>
+    <colorDefinition alpha="0xFF" index="659" name="MAPGRIP_159" rgb="0x4FAFAB"/>
+    <colorDefinition alpha="0xFF" index="660" name="MAPGRIP_160" rgb="0x51AB91"/>
+    <colorDefinition alpha="0xFF" index="661" name="MAPGRIP_161" rgb="0x5D90C5"/>
+    <colorDefinition alpha="0xFF" index="662" name="MAPGRIP_162" rgb="0x8C6B16"/>
+    <colorDefinition alpha="0xFF" index="663" name="MAPGRIP_163" rgb="0xE4BEA3"/>
+    <colorDefinition alpha="0xFF" index="664" name="MAPGRIP_164" rgb="0x8E5833"/>
+    <colorDefinition alpha="0xFF" index="665" name="MAPGRIP_165" rgb="0x37631B"/>
+    <colorDefinition alpha="0xFF" index="666" name="MAPGRIP_166" rgb="0xC77B65"/>
+    <colorDefinition alpha="0xFF" index="667" name="MAPGRIP_167" rgb="0x98C7E9"/>
+    <colorDefinition alpha="0xFF" index="668" name="MAPGRIP_168" rgb="0x7DC694"/>
+    <colorDefinition alpha="0xFF" index="669" name="MAPGRIP_169" rgb="0x4F8E30"/>
+    <colorDefinition alpha="0xFF" index="670" name="MAPGRIP_170" rgb="0xAB764B"/>
+    <colorDefinition alpha="0xFF" index="671" name="MAPGRIP_171" rgb="0x2F908B"/>
+    <colorDefinition alpha="0xFF" index="672" name="MAPGRIP_172" rgb="0x7EC35B"/>
+    <colorDefinition alpha="0xFF" index="673" name="MAPGRIP_173" rgb="0xC9996A"/>
+    <colorDefinition alpha="0xFF" index="674" name="MAPGRIP_174" rgb="0x0C6D6D"/>
+    <colorDefinition alpha="0xFF" index="675" name="MAPGRIP_175" rgb="0xFEE9B0"/>
+    <colorDefinition alpha="0xFF" index="676" name="MAPGRIP_176" rgb="0xAC863B"/>
+    <colorDefinition alpha="0xFF" index="677" name="MAPGRIP_177" rgb="0x6FD6D1"/>
+    <colorDefinition alpha="0xFF" index="678" name="MAPGRIP_178" rgb="0x3767A4"/>
+    <colorDefinition alpha="0xFF" index="679" name="MAPGRIP_179" rgb="0x178755"/>
+    <colorDefinition alpha="0xFF" index="680" name="MAPGRIP_180" rgb="0x51A673"/>
+    <colorDefinition alpha="0xFF" index="681" name="MAPGRIP_181" rgb="0x59A747"/>
+    <colorDefinition alpha="0xFF" index="682" name="MAPGRIP_182" rgb="0x2F8854"/>
+    <colorDefinition alpha="0xFF" index="683" name="MAPGRIP_183" rgb="0xA9683B"/>
+    <colorDefinition alpha="0xFF" index="684" name="MAPGRIP_184" rgb="0x0F8773"/>
+    <colorDefinition alpha="0xFF" index="685" name="MAPGRIP_185" rgb="0x874B1C"/>
+    <colorDefinition alpha="0xFF" index="686" name="MAPGRIP_186" rgb="0x58C19E"/>
+    <colorDefinition alpha="0xFF" index="687" name="MAPGRIP_187" rgb="0x05748E"/>
+    <colorDefinition alpha="0xFF" index="688" name="MAPGRIP_188" rgb="0x0C5189"/>
+    <colorDefinition alpha="0xFF" index="689" name="MAPGRIP_189" rgb="0x90C372"/>
+    <colorDefinition alpha="0xFF" index="690" name="MAPGRIP_190" rgb="0x70C47D"/>
+    <colorDefinition alpha="0xFF" index="691" name="MAPGRIP_191" rgb="0x2FA574"/>
+    <colorDefinition alpha="0xFF" index="692" name="MAPGRIP_192" rgb="0x299AAD"/>
+    <colorDefinition alpha="0xFF" index="693" name="MAPGRIP_193" rgb="0x338A28"/>
+    <colorDefinition alpha="0xFF" index="694" name="MAPGRIP_194" rgb="0xB3EA99"/>
+    <colorDefinition alpha="0xFF" index="695" name="MAPGRIP_195" rgb="0x6FAD53"/>
+    <colorDefinition alpha="0xFF" index="696" name="MAPGRIP_196" rgb="0xA35D44"/>
+    <colorDefinition alpha="0xFF" index="697" name="MAPGRIP_197" rgb="0xEABB88"/>
+    <colorDefinition alpha="0xFF" index="698" name="MAPGRIP_198" rgb="0xC9A45C"/>
+    <colorDefinition alpha="0xFF" index="699" name="MAPGRIP_199" rgb="0xCA8D57"/>
+    <colorDefinition alpha="0xFF" index="700" name="MAPGRIP_200" rgb="0xF6CE96"/>
+    <colorDefinition alpha="0xFF" index="701" name="MAPGRIP_201" rgb="0xE2A088"/>
+    <colorDefinition alpha="0xFF" index="702" name="MAPGRIP_202" rgb="0xFEE29E"/>
+    <colorDefinition alpha="0xFF" index="703" name="MAPGRIP_203" rgb="0x27861B"/>
+    <colorDefinition alpha="0xFF" index="704" name="MAPGRIP_204" rgb="0xC8883C"/>
+    <colorDefinition alpha="0xFF" index="705" name="MAPGRIP_205" rgb="0x2CAB95"/>
+    <colorDefinition alpha="0xFF" index="706" name="MAPGRIP_206" rgb="0xE59C69"/>
+    <colorDefinition alpha="0xFF" index="707" name="MAPGRIP_207" rgb="0x098E93"/>
+    <colorDefinition alpha="0xFF" index="708" name="MAPGRIP_208" rgb="0xA55B34"/>
+    <colorDefinition alpha="0xFF" index="709" name="MAPGRIP_209" rgb="0xC8794C"/>
+    <colorDefinition alpha="0xFF" index="710" name="MAPGRIP_210" rgb="0xE9B278"/>
+    <colorDefinition alpha="0xFF" index="711" name="MAPGRIP_211" rgb="0xF5C37D"/>
+    <colorDefinition alpha="0xFF" index="712" name="MAPGRIP_212" rgb="0x14A36C"/>
+    <colorDefinition alpha="0xFF" index="713" name="MAPGRIP_213" rgb="0x54A638"/>
+    <colorDefinition alpha="0xFF" index="714" name="MAPGRIP_214" rgb="0x1B871B"/>
+    <colorDefinition alpha="0xFF" index="715" name="MAPGRIP_215" rgb="0x60AB3B"/>
+    <colorDefinition alpha="0xFF" index="716" name="MAPGRIP_216" rgb="0x81C65B"/>
+    <colorDefinition alpha="0xFF" index="717" name="MAPGRIP_217" rgb="0xE69156"/>
+    <colorDefinition alpha="0xFF" index="718" name="MAPGRIP_218" rgb="0x010A69"/>
+    <colorDefinition alpha="0xFF" index="719" name="MAPGRIP_219" rgb="0xF7A45D"/>
+    <colorDefinition alpha="0xFF" index="720" name="MAPGRIP_220" rgb="0xCB6B3A"/>
+    <colorDefinition alpha="0xFF" index="721" name="MAPGRIP_221" rgb="0x883824"/>
+    <colorDefinition alpha="0xFF" index="722" name="MAPGRIP_222" rgb="0xE57A45"/>
+    <colorDefinition alpha="0xFF" index="723" name="MAPGRIP_223" rgb="0x13A794"/>
+    <colorDefinition alpha="0xFF" index="724" name="MAPGRIP_224" rgb="0x50D3CD"/>
+    <colorDefinition alpha="0xFF" index="725" name="MAPGRIP_225" rgb="0x15C7B8"/>
+    <colorDefinition alpha="0xFF" index="726" name="MAPGRIP_226" rgb="0x29B5AF"/>
+    <colorDefinition alpha="0xFF" index="727" name="MAPGRIP_227" rgb="0x2DCDCD"/>
+    <colorDefinition alpha="0xFF" index="728" name="MAPGRIP_228" rgb="0x4CCAAE"/>
+    <colorDefinition alpha="0xFF" index="729" name="MAPGRIP_229" rgb="0x0EC8CC"/>
+    <colorDefinition alpha="0xFF" index="730" name="MAPGRIP_230" rgb="0x10ACB3"/>
+    <colorDefinition alpha="0xFF" index="731" name="MAPGRIP_231" rgb="0x33C29E"/>
+    <colorDefinition alpha="0xFF" index="732" name="MAPGRIP_232" rgb="0x0790AE"/>
+    <colorDefinition alpha="0xFF" index="733" name="MAPGRIP_233" rgb="0x6CC9B1"/>
+    <colorDefinition alpha="0xFF" index="734" name="MAPGRIP_234" rgb="0x067BA9"/>
+    <colorDefinition alpha="0xFF" index="735" name="MAPGRIP_235" rgb="0x0DB1CE"/>
+    <colorDefinition alpha="0xFF" index="736" name="MAPGRIP_236" rgb="0x26B8CD"/>
+    <colorDefinition alpha="0xFF" index="737" name="MAPGRIP_237" rgb="0x45E0E8"/>
+    <colorDefinition alpha="0xFF" index="738" name="MAPGRIP_238" rgb="0x2EE7DF"/>
+    <colorDefinition alpha="0xFF" index="739" name="MAPGRIP_239" rgb="0x69EAF2"/>
+    <colorDefinition alpha="0xFF" index="740" name="MAPGRIP_240" rgb="0x2CC2B5"/>
+    <colorDefinition alpha="0xFF" index="741" name="MAPGRIP_241" rgb="0x0397C7"/>
+    <colorDefinition alpha="0xFF" index="742" name="MAPGRIP_242" rgb="0x2AD0EF"/>
+    <colorDefinition alpha="0xFF" index="743" name="MAPGRIP_243" rgb="0x13D2F1"/>
+    <colorDefinition alpha="0xFF" index="744" name="MAPGRIP_244" rgb="0x13BAE4"/>
+    <colorDefinition alpha="0xFF" index="745" name="MAPGRIP_245" rgb="0x8FF6F7"/>
+    <colorDefinition alpha="0xFF" index="746" name="MAPGRIP_246" rgb="0x54EAEC"/>
+    <colorDefinition alpha="0xFF" index="747" name="MAPGRIP_247" rgb="0xE3743D"/>
+    <colorDefinition alpha="0xFF" index="748" name="MAPGRIP_248" rgb="0xCE5B34"/>
+    <colorDefinition alpha="0xFF" index="749" name="MAPGRIP_249" rgb="0xBF6815"/>
+    <colorDefinition alpha="0xFF" index="750" name="MAPGRIP_250" rgb="0x87261A"/>
+    <colorDefinition alpha="0xFF" index="751" name="MAPGRIP_251" rgb="0x78180A"/>
+    <colorDefinition alpha="0xFF" index="752" name="MAPGRIP_252" rgb="0x5AA6DF"/>
+    <colorDefinition alpha="0xFF" index="753" name="MAPGRIP_253" rgb="0x000000"/>
+    <colorDefinition alpha="0xFF" index="754" name="MAPGRIP_254" rgb="0x000000"/>
+    <colorDefinition alpha="0xFF" index="755" name="MAPGRIP_255" rgb="0x000000"/>
+</colorTable>
+
+<!-- crc32 : 4293890207 -->
+
