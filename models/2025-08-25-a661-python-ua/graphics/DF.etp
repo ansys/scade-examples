@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="43" defaultConfiguration="2">
+	<props>
+		<Prop id="3" name="@STUDIO:PRODUCT">
+			<value>UAPC</value>
+		</Prop>
+		<Prop id="4" name="@SDY:RELEASE">
+			<value>25.2</value>
+		</Prop>
+		<Prop id="7" name="@SDY:DEFAULTCOLORTABLE">
+			<value>color_table.sct</value>
+		</Prop>
+		<Prop id="9" name="@SDY:DEFAULTLWTABLE">
+			<value>line_width_table.swt</value>
+		</Prop>
+		<Prop id="11" name="@SDY:DEFAULTLSTABLE">
+			<value>line_stipple_table.sst</value>
+		</Prop>
+		<Prop id="13" name="@SDY:FONTTABLE">
+			<value>font_table.sft</value>
+		</Prop>
+		<Prop id="17" name="@UAPC:PICTURESTABLE">
+			<value>picturesTable.xml</value>
+		</Prop>
+		<Prop id="20" name="@UAPC:SYMBOLSTABLE">
+			<value>symbolsTable.xml</value>
+		</Prop>
+		<Prop id="23" name="@UAPC:LINESTYLETABLE">
+			<value>linestylesTable.xml</value>
+		</Prop>
+		<Prop id="26" name="@UAPC:STYLESETCAPACITIES">
+			<value>look_capacities.slc</value>
+		</Prop>
+		<Prop id="28" name="@UAPC:STYLESETDEFINITION">
+			<value>look_definition.sld</value>
+		</Prop>
+		<Prop id="31" name="@UAPC:CONFFILE">
+			<value>a661.xml</value>
+		</Prop>
+		<Prop id="32" name="@UAPC:CONFLIB">
+			<value>$(SCADEDISPLAY_HOME)\config\lib\A661ServerUAPC.dll</value>
+		</Prop>
+		<Prop id="33" name="@UAPC:SERVEREXE">
+			<value>$(SCADEDISPLAY_HOME)\..\SCADE A661\bin\A661Server.exe</value>
+		</Prop>
+		<Prop id="35" name="@SDY:CONFTARGET">
+			<value>dfgen</value>
+			<configuration>34</configuration>
+		</Prop>
+		<Prop id="36" name="CONFIGURATIONS">
+			<value>34</value>
+		</Prop>
+		<Prop id="37" name="@SDY:CONFSOURCE">
+			<configuration>34</configuration>
+		</Prop>
+		<Prop id="38" name="@SDY:CONFOUTPUT">
+			<value>DF</value>
+			<configuration>34</configuration>
+		</Prop>
+		<Prop id="39" name="@UAPC:DFGENERATOR">
+			<value>dfgenstandard</value>
+			<configuration>34</configuration>
+		</Prop>
+		<Prop id="40" name="@UAPC:SERVERCONF">
+			<configuration>34</configuration>
+		</Prop>
+		<Prop id="41" name="@UAPC:BASENAME">
+			<value>UA_%ID%</value>
+			<configuration>34</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="5" extensions="sct;sft;sst;swt" name="Resource Files">
+			<elements>
+				<FileRef id="6" persistAs="color_table.sct"/>
+				<FileRef id="8" persistAs="line_width_table.swt"/>
+				<FileRef id="10" persistAs="line_stipple_table.sst"/>
+				<FileRef id="12" persistAs="font_table.sft"/>
+			</elements>
+		</Folder>
+		<Folder id="14" extensions="xml" name="A661 Configuration Files">
+			<elements>
+				<FileRef id="15" persistAs="$(SCADEDISPLAY_HOME)\config\a661_description\Tables\picturesTable.xml">
+					<props>
+						<Prop id="16" name="@SDY:FILETYPE">
+							<value>a661nativePictureTable</value>
+						</Prop>
+					</props>
+				</FileRef>
+				<FileRef id="18" persistAs="$(SCADEDISPLAY_HOME)\config\a661_description\Tables\symbolsTable.xml">
+					<props>
+						<Prop id="19" name="@SDY:FILETYPE">
+							<value>a661nativeSymbolTable</value>
+						</Prop>
+					</props>
+				</FileRef>
+				<FileRef id="21" persistAs="$(SCADEDISPLAY_HOME)\config\a661_description\Tables\linestylesTable.xml">
+					<props>
+						<Prop id="22" name="@SDY:FILETYPE">
+							<value>a661linestyle</value>
+						</Prop>
+					</props>
+				</FileRef>
+				<FileRef id="29" persistAs="$(SCADEDISPLAY_HOME)\config\a661_description\a661.xml">
+					<props>
+						<Prop id="30" name="@SDY:FILETYPE">
+							<value>a661standardConf</value>
+						</Prop>
+					</props>
+				</FileRef>
+			</elements>
+		</Folder>
+		<Folder id="24" extensions="cnt;pdt;sdt;slc;sld" name="A661 Resource Files">
+			<elements>
+				<FileRef id="25" persistAs="$(SCADEDISPLAY_HOME)\templates\uapc\look_capacities.slc"/>
+				<FileRef id="27" persistAs="look_definition.sld"/>
+			</elements>
+		</Folder>
+		<Folder id="42" extensions="ogfx;pgfx;sgfx" name="Model Files">
+			<elements>
+				<FileRef id="43" persistAs="UADF.sgfx"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="2" name="Default"/>
+		<Configuration id="34" name="DF Generation"/>
+	</configurations>
+</Project>

@@ -25,7 +25,17 @@ Below is a list of Ansys SCADE models stored in this repository. They are typica
 
 .. grid:: 2 2 3 3
 
-    .. grid-item-card:: Runtime Error Proof with SCADE Suite Design Verifier 
+    .. grid-item-card:: Writing a Python User Application for the SCADE ARINC 661 server
+        :margin: 0 4 0 0
+        :img-top: _static/thumbnails/2025-08-25-a661-python-ua.jpg
+
+        :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2025-08-25-a661-python-ua>`
+
+        :fas:`fa-solid fa-code` :model_sources:`View sources <2025-08-25-a661-python-ua>`
+
+        :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/writing-a-python-user-application-for-the-scade-arinc-661-server/>`__
+
+    .. grid-item-card:: Runtime Error Proof with SCADE Suite Design Verifier
         :margin: 0 4 0 0
         :img-top: _static/thumbnails/2025-07-30-window-manager.jpg
 
