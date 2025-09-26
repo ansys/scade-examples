@@ -187,8 +187,7 @@
 		</Folder>
 		<Folder id="72" extensions="etp" name="Libraries">
 			<elements>
-				<FileRef id="73" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Widgets\libWidgets.etp"/>
-				<FileRef id="117" persistAs="../libHMI/libHMI.etp"/>
+				<FileRef id="73" persistAs="$(SCADEDISPLAY_HOME)\examples\objects\Widgets\libWidgets.etp"/>				
 				<FileRef id="123" persistAs="../logic/libHMI.etp"/>
 			</elements>
 		</Folder>
