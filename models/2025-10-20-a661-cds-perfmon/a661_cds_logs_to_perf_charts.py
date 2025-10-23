@@ -72,8 +72,6 @@ def parse_network_traffic(network_csv_path):
             if ua_id not in data[cycle_nb]:
                 data[cycle_nb][ua_id] = {"RX": 0, "TX": 0}
             data[cycle_nb][ua_id][direction] += size
-
-    # Convert to list of tuples sorted by cycle number
     return [(cycle, dict(ua_data)) for cycle, ua_data in sorted(data.items())]
 
 
@@ -268,8 +266,6 @@ def plot_combined(exec_times, allocation_data, network_data):
 
 
 if __name__ == "__main__":
-    # arg:
-    # --server_logs "C:\Users\fcouadau\git\scripts\a661-perf-charts\resources\2025-10-14 server.log" --malloc_csv "C:\Users\fcouadau\git\scripts\a661-perf-charts\resources\a661_log_251014_171839_malloc.csv" --network_csv "C:\Users\fcouadau\git\scripts\a661-perf-charts\resources\a661_log251014_net.csv"
     args = argument_parser().parse_args()
     exec_times = parse_exec_times(args.server_logs)
     malloc = parse_memory_allocations(args.malloc_csv)
