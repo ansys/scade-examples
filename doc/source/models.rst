@@ -25,6 +25,16 @@ Below is a list of Ansys SCADE models stored in this repository. They are typica
 
 .. grid:: 2 2 3 3
 
+    .. grid-item-card:: ARINC 661 server performance monitoring
+        :margin: 0 4 0 0
+        :img-top: _static/thumbnails/2025-10-20-a661-cds-perfmon.jpg
+
+        :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2025-10-20-a661-cds-perfmon>`
+
+        :fas:`fa-solid fa-code` :model_sources:`View sources <2025-10-20-a661-cds-perfmon>`
+
+        :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/arinc-661-server-performance-monitoring/>`__
+
     .. grid-item-card:: Writing a Python User Application for the SCADE ARINC 661 server
         :margin: 0 4 0 0
         :img-top: _static/thumbnails/2025-08-25-a661-python-ua.jpg
