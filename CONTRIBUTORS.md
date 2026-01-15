@@ -11,3 +11,4 @@
 * [Ludovic Oddos (Ansys)](https://github.com/ansloddos)
 * [Revathy Venugopal](https://github.com/Revathyvenugopal162)
 * [Roberto Pastor Muela](https://github.com/RobPasMue)
+* [Sébastien Morais](https://github.com/SMoraisAnsys)
