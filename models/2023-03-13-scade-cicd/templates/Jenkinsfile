@@ -2,18 +2,18 @@ pipeline {
   agent any
   environment { 
     // select the SCADE version to execute actions
-    SCADE_DIR = "C:\\Program Files\\ANSYS Inc\\v231\\SCADE"
+    SCADE_DIR = 'C:\\Program Files\\ANSYS Inc\\v231\\SCADE'
     // SCADE project relative path without extension
-    SCADE_PROJECT_ROOT = "SCADE_Project_relative_path_without_extension"
+    SCADE_PROJECT_ROOT = 'SCADE_Project_relative_path_without_extension'
     // SCADE test project relative path without extension
-    SCADE_PROJECT_TEST_ROOT = "SCADE_Project_Test_relative_path_without_extension"
+    SCADE_PROJECT_TEST_ROOT = 'SCADE_Project_Test_relative_path_without_extension'
     // SCADE test result project relative path without extension
-    SCADE_PROJECT_TEST_RESULT_ROOT = "SCADE_Project_Test_Result_relative_path_without_extension"
+    SCADE_PROJECT_TEST_RESULT_ROOT = 'SCADE_Project_Test_Result_relative_path_without_extension'
     // SCADE Configurations
-    CONF_CHECK = KCG
-    CONF_REPORT = RTF
-    CONF_GEN = KCG
-    CONF_TEST = Test
+    CONF_CHECK = 'KCG'
+    CONF_REPORT = 'RTF'
+    CONF_GEN = 'KCG'
+    CONF_TEST = 'Test'
   }
 
   stages {
