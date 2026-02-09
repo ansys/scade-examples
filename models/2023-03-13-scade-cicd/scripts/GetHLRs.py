@@ -14,7 +14,7 @@ class Requirements(Visit):
         try:
             if a.name == "ModeController":
                 print("found HLR")
-        except:
+        except Exception:
             pass
         if a.requirement_ids:
             print("%s: %s" % (a.get_full_path(), " ".join(a.requirement_ids)))
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     try:
         load_project(options.project)
-    except:
+    except Exception:
         pass
     if len(get_projects()) == 0:
         print("failed to load project: %s" % options.project)

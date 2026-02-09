@@ -250,7 +250,7 @@ if __name__ == "__main__":
 
     try:
         load_project(options.project)
-    except:
+    except Exception:
         pass
     if len(get_projects()) == 0:
         print("failed to load project: %s" % options.project)
@@ -263,7 +263,7 @@ if __name__ == "__main__":
             test_path = Path(get_projects()[0].pathname).parent / test_path
             try:
                 load_project(str(test_path))
-            except:
+            except Exception:
                 pass
             if len(get_projects()) == 1:
                 print("failed to load project: %s" % test_path)
