@@ -1,6 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
+    cooldown:
+      default-days: 10 # Fallback cooldown if no specific rule applies
     directories:
       - "/requirements"
     schedule:
@@ -14,6 +16,8 @@ updates:
             - "*"
 
   - package-ecosystem: "github-actions"
+    cooldown:
+      default-days: 10 # Fallback cooldown if no specific rule applies
     directory: "/"
     schedule:
       interval: "weekly"
