@@ -94,3 +94,13 @@ Below is a list of Ansys SCADE models stored in this repository. They are typica
         :fas:`fa-solid fa-code` :model_sources:`View sources <2025-01-29-dds-example>`
 
         :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/data-distribution-service-with-scade-suite/>`__
+
+    .. grid-item-card:: SCADE CI/CD
+        :margin: 0 4 0 0
+        :img-top: _static/thumbnails/2023-03-13-scade-cicd.jpg
+
+        :fas:`fa-solid fa-file-zipper` :model_zip:`Download model <2023-03-13-scade-cicd>`
+
+        :fas:`fa-solid fa-code` :model_sources:`View sources <2023-03-13-scade-cicd>`
+
+        :fas:`fa-solid fa-newspaper` `Companion article <https://innovationspace.ansys.com/knowledge/forums/topic/setting-up-a-continuous-integration-continuous-delivery-ci-cd-workflow-with-scade/>`__
