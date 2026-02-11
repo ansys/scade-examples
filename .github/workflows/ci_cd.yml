@@ -9,7 +9,7 @@ on:
     branches:
       - main
 env:
-  MAIN_PYTHON_VERSION : '3.11'
+  MAIN_PYTHON_VERSION : '3.12'
   PACKAGE_NAME: 'scade-examples'
   DOCUMENTATION_CNAME: 'examples.scade.docs.pyansys.com'
 
