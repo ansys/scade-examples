@@ -77,7 +77,7 @@ jobs:
           echo ${{ matrix.folder }}
 
       - name: "Upload models as artifacts"
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.folder }}
           path: models/${{ matrix.folder }}/
