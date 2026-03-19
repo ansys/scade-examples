@@ -2,4 +2,4 @@
 Run `start.bat` for a one-step build + launch of the server and UA.
 
 ## Requirements
-- Ansys SCADE 2025 R2 or later, including SCADE Solutions for ARINC 661
+- Ansys SCADE 2026 R1 or later, including SCADE Solutions for ARINC 661

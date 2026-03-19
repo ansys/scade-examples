@@ -39,9 +39,9 @@ while True:
     if notifs:
         for notif in notifs:
             if (
-                notif["kind"] == "A661_NOTIFY_WIDGET_EVENT"
-                and notif["widget_id"] == pushbutton.get_wid()
-                and notif["notif"].name == "A661_EVT_SELECTION"
+                notif["RuntimeCommand"] == "A661_NOTIFY_WIDGET_EVENT"
+                and notif["WidgetIdent"] == pushbutton.widget_id
+                and notif["EventIdent"] == "A661_EVT_SELECTION"
             ):
                 now = datetime.datetime.now()
                 ua1.send_block(target_label.string(now.strftime("%H:%M:%S")))
