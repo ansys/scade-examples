@@ -77,7 +77,7 @@ jobs:
           echo ${{ matrix.folder }}
 
       - name: "Upload models as artifacts"
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.folder }}
           path: models/${{ matrix.folder }}/
@@ -124,7 +124,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: "Download HTML documentation"
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: documentation-html
           path: documentation-html
@@ -136,7 +136,7 @@ jobs:
           dest: artifacts/documentation-html.zip
 
       - name: "Download PDF documentation"
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: documentation-pdf
           path: documentation-pdf
