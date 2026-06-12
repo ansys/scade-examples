@@ -29,7 +29,7 @@ Overview
 --------
 This repository hosts a collection of example models demonstrating the Ansys SCADE tools.
 
-These models are often related to external content, for instance `Embedded Software Technical Blog <https://innovationspace.ansys.com/knowledge/forums/forum/additional-products/embedded-software/>`__ articles, or `Embedded Software Courses <https://courses.ansys.com/index.php/embedded-software/>`__.
+These models are often related to external content, for instance `Embedded Software Technical Blog <https://innovationspace.ansys.com/knowledge/forums/forum/digital-engineering/embedded-software/>`__ articles, or `Embedded Software Courses <https://courses.ansys.com/index.php/embedded-software/>`__.
 
 In addition to example models stored in this repository, the documentation also points to separate repositories hosting larger, 'flagship' SCADE demo models. These 'flagship' models are larger in scale and have their own advanced CI/CD actions.
 
