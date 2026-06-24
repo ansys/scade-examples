@@ -54,7 +54,7 @@ jobs:
       folders: ${{ steps.folders.outputs.folders }}
     steps:
       - name: "Install Git and clone project"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.3
 
       - name: "List example model folders"
         id: folders
@@ -70,7 +70,7 @@ jobs:
         folder: ${{ fromJSON(needs.list-models.outputs.folders) }}
     steps:
       - name: "Install Git and clone project"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.3
 
       - name: "Echo folder name"
         run: |
@@ -94,7 +94,7 @@ jobs:
     if: github.event_name == 'push' && contains(github.ref, 'refs/tags')
     steps:
       - name: "Install Git and clone project"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.3
 
       - name: "Create artifact directory"
         run: mkdir artifacts
@@ -121,7 +121,7 @@ jobs:
     if: github.event_name == 'push' && contains(github.ref, 'refs/tags')
     steps:
       - name: "Install Git and clone project"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.3
 
       - name: "Download HTML documentation"
         uses: actions/download-artifact@v8
