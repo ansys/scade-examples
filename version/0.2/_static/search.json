@@ -1,0 +1,72 @@
+[
+    {
+        "objectID": "models",
+        "href": "models.html#scade-models",
+        "title": "SCADE models",
+        "section": "SCADE models",
+        "text": "SCADE models"
+    },
+    {
+        "objectID": "models",
+        "href": "models.html#flagship-example-models",
+        "title": "SCADE models > ‘Flagship’ example models",
+        "section": "‘Flagship’ example models",
+        "text": "Below is a list of cards pointing to large Ansys SCADE examples stored in their own, dedicated repositories. They are typically large in scope, composed of multiple, interconnected models, and have their own CI/CD actions.\n‘Flagship’ example models"
+    },
+    {
+        "objectID": "models",
+        "href": "models.html#example-models",
+        "title": "SCADE models > Example models",
+        "section": "Example models",
+        "text": "Below is a list of Ansys SCADE models stored in this repository. They are typically smaller in scope and associated to some external content (article, course, etc.).\n Download model\n View sources\n Companion article\n Download model\n View sources\n Companion article\n Download model\n View sources\n Companion article\n Download model\n View sources\n Companion article\nExample models"
+    },
+    {
+        "objectID": "index",
+        "href": "index.html#scade-example-models",
+        "title": "SCADE example models",
+        "section": "SCADE example models",
+        "text": "This repository hosts a collection of example models demonstrating the Ansys SCADE tools.\nThese models are often related to external content, for instance Embedded Software Technical Blog articles, or Embedded Software Courses.\nList of SCADE example models.\nLearn how to contribute to SCADE example models.\nsearch\nSCADE example models"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#contribute",
+        "title": "Contribute",
+        "section": "Contribute",
+        "text": "Overall guidance on contributing to a PyAnsys library appears in\nContributing\nin the PyAnsys developer’s guide. Ensure that you are thoroughly familiar\nwith this guide before attempting to contribute to the Ansys SCADE example\nmodels repository.\nThe following contribution information is specific to Ansys SCADE example models.\nContribute"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#install-in-developer-mode",
+        "title": "Contribute > Install in developer mode",
+        "section": "Install in developer mode",
+        "text": "Installing the Ansys SCADE examples in developer mode allows you to modify the\nsource and enhance it.\nClone the ansys-scade-examples repository:\nAccess the scade-examples directory where the repository has been cloned:\nCreate a clean Python 3.10 environment and activate it:\nYou should use the interpreter delivered with Ansys SCADE. For example,\nC:\\Program Files\\ANSYS Inc\\v232\\SCADE\\contrib\\Python310\\python.exe.\nMake sure that you have the latest required build system, documentation, testing,\nand CI tools:\nInstall in developer mode\nansys-scade-examples\nscade-examples\nC:\\Program Files\\ANSYS Inc\\v232\\SCADE\\contrib\\Python310\\python.exe"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#use-pre-commit",
+        "title": "Contribute > Use pre-commit",
+        "section": "Use pre-commit",
+        "text": "The example for the Ansys SCADE boiler plate interface follows the PEP8 standard as outlined in\nPEP 8 in\nthe PyAnsys developer’s guide and implements style checking using\npre-commit.\nTo ensure your code meets minimum code styling standards, run these commands:\nYou can also install this as a pre-commit hook by running this command:\nThis way, it’s not possible for you to push code that fails the style checks:\nUse pre-commit\npre-commit"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#build-documentation",
+        "title": "Contribute > Build documentation",
+        "section": "Build documentation",
+        "text": "To build documentation, you can run these commands:\nBuild documentation"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#add-a-new-model",
+        "title": "Contribute > Add a new model",
+        "section": "Add a new model",
+        "text": "To add a new model, make a Pull Request with the following changes:\nAdd your model in a new folder under models/.\nYour folder should be called YYYY-MM-DD-human-readable-name, where YYYY-MM-DD is the date of first model publication.\nThe recommended structure for your folder is as follows:\nIn your README.md file, you should list the requirements to use the model (at least the version of SCADE).\nAdd a thumbnail image for the article under doc/source/_static/thumbnails/.\nThe image should be called YYYY-MM-DD-human-readable-name.jpg.\nThe image should have 1:1 ratio, with a recommended resolution of 512x512.\nAdd a card at the beginning of the grid in file doc/source/models.rst. Use the following template, manually replacing {VARIABLES} with their actual values:\nAdd a new model\nmodels/\nYYYY-MM-DD-human-readable-name\nYYYY-MM-DD\nREADME.md\ndoc/source/_static/thumbnails/\nYYYY-MM-DD-human-readable-name.jpg\n1:1\n512x512\ndoc/source/models.rst\n{VARIABLES}"
+    },
+    {
+        "objectID": "contributing",
+        "href": "contributing.html#post-issues",
+        "title": "Contribute > Post issues",
+        "section": "Post issues",
+        "text": "Use the Issues\npage for this repository to report bugs and request new features. When possible,\nuse the issue templates provided. If your issue does not fit into one of these templates,\nclick the link for opening a blank issue.\nIf you have general questions about the PyAnsys ecosystem, email\npyansys.core@ansys.com. If your\nquestion is specific to Ansys SCADE examples, ask your question\nin an issue as described in the previous paragraph.\nPost issues"
+    }
+]
