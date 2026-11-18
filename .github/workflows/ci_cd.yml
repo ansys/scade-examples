@@ -35,6 +35,7 @@ jobs:
       - uses: ansys/actions/doc-style@v11
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          skip-python-setup: true
 
   doc-build:
     name: "Build documentation"
