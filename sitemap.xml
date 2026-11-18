@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- managed-by: ansys/actions/_doc-gen-sitemap -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://examples.scade.docs.pyansys.com/</loc>
+    <lastmod>2026-11-18T15:16:05+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://examples.scade.docs.pyansys.com/version/stable/index.html</loc>
+  </url>
+  <url>
+    <loc>https://examples.scade.docs.pyansys.com/version/stable/contributing.html</loc>
+  </url>
+  <url>
+    <loc>https://examples.scade.docs.pyansys.com/version/stable/models.html</loc>
+  </url>
+</urlset>
